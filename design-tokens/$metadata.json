@@ -1,5 +1,17 @@
 {
   "tokenSetOrder": [
-    "global"
+    "core",
+    "themes/presentation",
+    "themes/web-light",
+    "themes/web-dark",
+    "larger",
+    "rounder",
+    "highcontrast",
+    "components/buttons/success",
+    "components/buttons/error",
+    "components/buttons/↳ special buttons",
+    "components/buttons/default buttons",
+    "components/textfields",
+    "components/radiobuttons"
   ]
 }

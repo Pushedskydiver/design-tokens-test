@@ -1,0 +1,10 @@
+{
+  "base": {
+    "border-radius": {
+      "scale": {
+        "value": "2",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

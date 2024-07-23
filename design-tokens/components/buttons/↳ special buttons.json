@@ -1,0 +1,95 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "enabled-bg": {
+          "value": "{comp.button.color.selectable-bg}",
+          "type": "color",
+          "description": "This set and error and success above are unstable sets and only meant to be used in \"Apply to selection\" mode. Select either error OR success and then this set (special buttons) and render the button with \"Apply to selection\". It minimizes redundance, but is not stable between themes."
+        },
+        "enabled-border": {
+          "value": "{comp.button.color.enabled-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "{base.color.modifiers.button.border-mix}",
+                "space": "lch",
+                "color": "{base.color.fg-default}"
+              }
+            }
+          }
+        },
+        "hover-bg": {
+          "value": "{comp.button.color.enabled-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{base.color.modifiers.button.hover-lightness}",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "hover-border": {
+          "value": "{comp.button.color.hover-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "{base.color.modifiers.button.border-mix}",
+                "space": "lch",
+                "color": "{base.color.fg-default}"
+              }
+            }
+          }
+        },
+        "pressed-bg": {
+          "value": "{comp.button.color.enabled-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{base.color.modifiers.button.pressed-lightness}",
+                "space": "lch"
+              }
+            }
+          }
+        },
+        "pressed-border": {
+          "value": "{comp.button.color.pressed-bg}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "{base.color.modifiers.button.border-mix}",
+                "space": "lch",
+                "color": "{base.color.fg-default}"
+              }
+            }
+          }
+        },
+        "fg": {
+          "value": "{comp.button.color.selectable-fg}",
+          "type": "color"
+        }
+      },
+      "opacity": {
+        "enabled": {
+          "value": "{base.color.modifiers.enabled-alpha}",
+          "type": "opacity"
+        },
+        "disabled": {
+          "value": "{base.color.modifiers.disabled-alpha}",
+          "type": "opacity"
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "id": "683b98f60c72d09a2e36ab7deca721281e991885",
+    "name": "presentation",
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/presentation": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "8f6d76b46a3f00799f909ab70fe27ce842b62939",
+    "name": "brand-light",
+    "selectedTokenSets": {
+      "core": "source",
+      "components/textfields": "enabled",
+      "themes/web-light": "enabled",
+      "components/radiobuttons": "enabled",
+      "components/buttons/default buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "325f2d539ecea67fcbadd5beb52d95a35558a591",
+    "name": "brand-light-largerrounder",
+    "selectedTokenSets": {
+      "core": "source",
+      "larger": "enabled",
+      "rounder": "enabled",
+      "components/textfields": "enabled",
+      "themes/web-light": "enabled",
+      "components/radiobuttons": "enabled",
+      "components/buttons/default buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "ae517511b786e59b5fe64c59a227702f4b753013",
+    "name": "brand-light-highcontrast",
+    "selectedTokenSets": {
+      "core": "source",
+      "components/textfields": "enabled",
+      "highcontrast": "enabled",
+      "themes/web-light": "enabled",
+      "components/radiobuttons": "enabled",
+      "components/buttons/default buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "922306cd2fdbfac786372755a132da8d0e91632c",
+    "name": "brand-dark",
+    "selectedTokenSets": {
+      "core": "source",
+      "components/textfields": "enabled",
+      "themes/web-light": "enabled",
+      "themes/web-dark": "enabled",
+      "components/radiobuttons": "enabled",
+      "components/buttons/default buttons": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "core": {
+    "size": {
+      "SCALE": {
+        "value": "20",
+        "type": "sizing"
+      }
+    },
+    "font-size": {
+      "REM": {
+        "value": "20",
+        "type": "fontSizes"
+      }
+    }
+  }
+}

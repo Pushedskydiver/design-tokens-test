@@ -1,0 +1,298 @@
+{
+  "base": {
+    "size": {
+      "presentation": {
+        "w": {
+          "value": "1600",
+          "type": "sizing"
+        },
+        "h": {
+          "value": "1000",
+          "type": "sizing"
+        }
+      }
+    },
+    "color": {
+      "on-light-default": {
+        "value": "{core.color.neutral.0}",
+        "type": "color"
+      },
+      "on-light-weak": {
+        "value": "{core.color.neutral.50}",
+        "type": "color"
+      },
+      "on-dark-weak": {
+        "value": "{core.color.neutral.50}",
+        "type": "color"
+      },
+      "on-dark-default": {
+        "value": "{core.color.neutral.90}",
+        "type": "color"
+      },
+      "gradients": {
+        "0": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.0} 0%, {base.color.solids.60} 100%)",
+          "type": "color"
+        },
+        "30": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.30} 0%, {base.color.solids.60} 100%)",
+          "type": "color"
+        },
+        "60": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.60} 0%, {base.color.solids.150} 100%)",
+          "type": "color"
+        },
+        "90": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.90} 0%, {base.color.solids.180} 100%)",
+          "type": "color"
+        },
+        "120": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.120} 0%, {base.color.solids.210} 100%)",
+          "type": "color"
+        },
+        "150": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.150} 0%, {base.color.solids.240} 100%)",
+          "type": "color"
+        },
+        "180": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.180} 0%, {base.color.solids.270} 100%)",
+          "type": "color"
+        },
+        "210": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.210} 0%, {base.color.solids.300} 100%)",
+          "type": "color"
+        },
+        "240": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.240} 0%, {base.color.solids.330} 100%)",
+          "type": "color"
+        },
+        "270": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.270} 0%, {base.color.solids.0} 100%)",
+          "type": "color"
+        },
+        "300": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.300} 0%, {base.color.solids.30} 100%)",
+          "type": "color"
+        },
+        "330": {
+          "value": "linear-gradient({base.color.gradients.angle}, {base.color.solids.330} 0%, {base.color.solids.60} 100%)",
+          "type": "color"
+        },
+        "angle": {
+          "value": "75deg",
+          "type": "other",
+          "description": "It's base.color.gradients.angle so it shows up in the object of all gradients in the json-file."
+        }
+      },
+      "solids": {
+        "0": {
+          "value": "{core.color.bloodburst.40}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{core.color.blazingorange.60}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{core.color.buttercake.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{core.color.irradiatedgreen.60}",
+          "type": "color"
+        },
+        "120": {
+          "value": "{core.color.goblinwarboss.60}",
+          "type": "color"
+        },
+        "150": {
+          "value": "{core.color.seagreen.50}",
+          "type": "color"
+        },
+        "180": {
+          "value": "{core.color.electricsheep.40}",
+          "type": "color"
+        },
+        "210": {
+          "value": "{core.color.joustblue.30}",
+          "type": "color"
+        },
+        "240": {
+          "value": "{core.color.romanticblue.30}",
+          "type": "color"
+        },
+        "270": {
+          "value": "{core.color.vegaviolet.40}",
+          "type": "color"
+        },
+        "300": {
+          "value": "{core.color.suratipink.40}",
+          "type": "color"
+        },
+        "330": {
+          "value": "{core.color.barbiepink.40}",
+          "type": "color"
+        }
+      }
+    },
+    "font-family": {
+      "title": {
+        "value": "Avenir Next",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Arial",
+        "type": "fontFamilies"
+      }
+    },
+    "font-weight": {
+      "title": {
+        "value": "900",
+        "type": "fontWeights"
+      },
+      "body": {
+        "value": "400",
+        "type": "fontWeights"
+      }
+    },
+    "font-size": {
+      "s": {
+        "value": "{core.font-size.scaled.150}",
+        "type": "fontSizes"
+      },
+      "m": {
+        "value": "{core.font-size.scaled.250}",
+        "type": "fontSizes"
+      },
+      "l": {
+        "value": "{core.font-size.scaled.450}",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "{core.font-size.scaled.600}",
+        "type": "fontSizes"
+      }
+    },
+    "typography": {
+      "topline": {
+        "s": {
+          "value": {
+            "fontFamily": "{base.font-family.title}",
+            "fontWeight": "{base.font-weight.title}",
+            "lineHeight": "{base.line-height.title}",
+            "fontSize": "{base.font-size.s}",
+            "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.title}",
+            "textCase": "Uppercase",
+            "letterSpacing": "2"
+          },
+          "type": "typography"
+        }
+      },
+      "title": {
+        "l": {
+          "value": {
+            "fontFamily": "{base.font-family.title}",
+            "fontWeight": "{base.font-weight.title}",
+            "lineHeight": "{base.line-height.title}",
+            "fontSize": "{base.font-size.l}",
+            "paragraphSpacing": "{base.font-size.l} * {base.paragraph-spacing.title}",
+            "textCase": "Uppercase"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontFamily": "{base.font-family.title}",
+            "fontWeight": "{base.font-weight.title}",
+            "lineHeight": "{base.line-height.title}",
+            "fontSize": "{base.font-size.xl}",
+            "paragraphSpacing": "{base.font-size.xl} * {base.paragraph-spacing.title}",
+            "textCase": "Uppercase"
+          },
+          "type": "typography"
+        }
+      },
+      "body": {
+        "s": {
+          "value": {
+            "fontFamily": "{base.font-family.body}",
+            "fontWeight": "{base.font-weight.body}",
+            "lineHeight": "{base.line-height.body}",
+            "fontSize": "{base.font-size.s}",
+            "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.body}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontFamily": "{base.font-family.body}",
+            "fontWeight": "{base.font-weight.body}",
+            "lineHeight": "{base.line-height.body}",
+            "fontSize": "{base.font-size.m}",
+            "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.body}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "line-height": {
+      "title": {
+        "value": "{core.line-height.xs}",
+        "type": "lineHeights"
+      },
+      "body": {
+        "value": "{core.line-height.m}",
+        "type": "lineHeights"
+      }
+    },
+    "paragraph-spacing": {
+      "title": {
+        "value": "{core.paragraph-spacing.none}",
+        "type": "paragraphSpacing"
+      },
+      "body": {
+        "value": "{core.paragraph-spacing.xl}",
+        "type": "paragraphSpacing"
+      }
+    },
+    "space": {
+      "1": {
+        "value": "{core.dimension.12}",
+        "type": "spacing",
+        "description": "This scope/scale is by the power of 2. This is the easiest version of spacing tokens, not really semantic and probably not detailed enough for real pixel-perfect designs, but enough to make a functioning interface."
+      },
+      "2": {
+        "value": "{core.dimension.25}",
+        "type": "spacing"
+      },
+      "3": {
+        "value": "{core.dimension.50}",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "5": {
+        "value": "{core.dimension.200}",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "{core.dimension.400}",
+        "type": "spacing"
+      },
+      "7": {
+        "value": "{core.dimension.800}",
+        "type": "spacing"
+      },
+      "8": {
+        "value": "{core.dimension.1600}",
+        "type": "spacing"
+      },
+      "9": {
+        "value": "{core.dimension.2400}",
+        "type": "spacing"
+      }
+    }
+  }
+}

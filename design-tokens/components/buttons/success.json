@@ -1,0 +1,16 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "selectable-bg": {
+          "value": "{base.color.selectable.success.default}",
+          "type": "color"
+        },
+        "selectable-fg": {
+          "value": "{base.color.selectable.success.on-default}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

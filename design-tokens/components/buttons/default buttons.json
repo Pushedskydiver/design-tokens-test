@@ -1,0 +1,305 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "primary": {
+          "enabled-bg": {
+            "value": "{base.color.selectable.primary.default}",
+            "type": "color",
+            "description": "Those are stable sets that change correctly when the theme is changed. Primary is completely realized with color-modifers, secondary with some color-modifiers and tertiary the old-school way without."
+          },
+          "enabled-border": {
+            "value": "{comp.button.color.primary.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{base.color.modifiers.button.border-mix}",
+                  "space": "lch",
+                  "color": "{base.color.fg-default}"
+                }
+              }
+            }
+          },
+          "hover-bg": {
+            "value": "{comp.button.color.primary.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.button.hover-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover-border": {
+            "value": "{comp.button.color.primary.hover-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{base.color.modifiers.button.border-mix}",
+                  "space": "lch",
+                  "color": "{base.color.fg-default}"
+                }
+              }
+            }
+          },
+          "pressed-bg": {
+            "value": "{comp.button.color.primary.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.button.pressed-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed-border": {
+            "value": "{comp.button.color.primary.pressed-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "{base.color.modifiers.button.border-mix}",
+                  "space": "lch",
+                  "color": "{base.color.fg-default}"
+                }
+              }
+            }
+          },
+          "fg": {
+            "value": "{base.color.selectable.primary.on-default}",
+            "type": "color"
+          }
+        },
+        "secondary-unselected": {
+          "enabled-bg": {
+            "value": "{base.color.selectable.secondary.unselected.bg}",
+            "type": "color"
+          },
+          "enabled-border": {
+            "value": "{base.color.selectable.secondary.unselected.border}",
+            "type": "color"
+          },
+          "hover-bg": {
+            "value": "{comp.button.color.secondary-unselected.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.button.hover-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover-border": {
+            "value": "{comp.button.color.secondary-unselected.enabled-border}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.button.hover-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed-bg": {
+            "value": "{comp.button.color.secondary-unselected.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.button.pressed-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed-border": {
+            "value": "{comp.button.color.secondary-unselected.enabled-border}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.button.pressed-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "fg": {
+            "value": "{base.color.selectable.secondary.unselected.fg}",
+            "type": "color"
+          }
+        },
+        "secondary-selected": {
+          "enabled-bg": {
+            "value": "{base.color.selectable.secondary.selected.bg}",
+            "type": "color"
+          },
+          "enabled-border": {
+            "value": "{base.color.selectable.secondary.selected.border}",
+            "type": "color"
+          },
+          "hover-bg": {
+            "value": "{comp.button.color.secondary-selected.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.button.hover-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "hover-border": {
+            "value": "{comp.button.color.secondary-selected.enabled-border}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.button.hover-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed-bg": {
+            "value": "{comp.button.color.secondary-selected.enabled-bg}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.button.pressed-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "pressed-border": {
+            "value": "{comp.button.color.secondary-selected.enabled-border}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.button.pressed-lightness}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "fg": {
+            "value": "{base.color.selectable.secondary.selected.fg}",
+            "type": "color"
+          }
+        },
+        "tertiary-unselected": {
+          "enabled-bg": {
+            "value": "{base.color.selectable.tertiary.unselected.enabled.bg}",
+            "type": "color"
+          },
+          "enabled-border": {
+            "value": "{base.color.selectable.tertiary.unselected.enabled.border}",
+            "type": "color"
+          },
+          "enabled-fg": {
+            "value": "{base.color.selectable.tertiary.unselected.enabled.fg}",
+            "type": "color"
+          },
+          "hover-bg": {
+            "value": "{base.color.selectable.tertiary.unselected.hover.bg}",
+            "type": "color"
+          },
+          "hover-border": {
+            "value": "{base.color.selectable.tertiary.unselected.hover.border}",
+            "type": "color"
+          },
+          "hover-fg": {
+            "value": "{base.color.selectable.tertiary.unselected.hover.fg}",
+            "type": "color"
+          },
+          "pressed-bg": {
+            "value": "{base.color.selectable.tertiary.unselected.pressed.bg}",
+            "type": "color"
+          },
+          "pressed-border": {
+            "value": "{base.color.selectable.tertiary.unselected.pressed.border}",
+            "type": "color"
+          },
+          "pressed-fg": {
+            "value": "{base.color.selectable.tertiary.unselected.pressed.fg}",
+            "type": "color"
+          }
+        },
+        "tertiary-selected": {
+          "enabled-bg": {
+            "value": "{base.color.selectable.tertiary.selected.enabled.bg}",
+            "type": "color"
+          },
+          "enabled-border": {
+            "value": "{base.color.selectable.tertiary.selected.enabled.border}",
+            "type": "color"
+          },
+          "enabled-fg": {
+            "value": "{base.color.selectable.tertiary.selected.enabled.fg}",
+            "type": "color"
+          },
+          "hover-bg": {
+            "value": "{base.color.selectable.tertiary.selected.hover.bg}",
+            "type": "color"
+          },
+          "hover-border": {
+            "value": "{base.color.selectable.tertiary.selected.hover.border}",
+            "type": "color"
+          },
+          "hover-fg": {
+            "value": "{base.color.selectable.tertiary.selected.hover.fg}",
+            "type": "color"
+          },
+          "pressed-bg": {
+            "value": "{base.color.selectable.tertiary.selected.pressed.bg}",
+            "type": "color"
+          },
+          "pressed-border": {
+            "value": "{base.color.selectable.tertiary.selected.pressed.border}",
+            "type": "color"
+          },
+          "pressed-fg": {
+            "value": "{base.color.selectable.tertiary.selected.pressed.fg}",
+            "type": "color"
+          }
+        }
+      },
+      "opacity": {
+        "enabled": {
+          "value": "{base.color.modifiers.enabled-alpha}",
+          "type": "opacity"
+        },
+        "disabled": {
+          "value": "{base.color.modifiers.disabled-alpha}",
+          "type": "opacity"
+        }
+      }
+    }
+  }
+}

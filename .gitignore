@@ -10,7 +10,7 @@ build
 !.env.example
 
 # design tokens
-src/styles/themes
+app/styles/themes
 
 # local Netlify folder
 .netlify

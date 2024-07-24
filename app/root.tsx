@@ -6,6 +6,30 @@ import {
 	ScrollRestoration,
 } from '@remix-run/react';
 
+import styles from './styles/globals.css?url';
+
+import type { LinksFunction, MetaFunction } from '@remix-run/node';
+
+export const links: LinksFunction = () => [
+	{
+		rel: 'preload',
+		href: styles,
+		as: 'style',
+	},
+	{ rel: 'stylesheet', href: styles },
+];
+
+export const meta: MetaFunction = () => [
+	{
+		title: 'Hillarys & Thomas Sanderson design tokens demo',
+	},
+	{
+		name: 'description',
+		content:
+			'Testing design tokens between Hillarys and Thomas Sanderson brands',
+	},
+];
+
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en-GB">
@@ -13,7 +37,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<meta charSet="utf-8" />
 				<meta
 					name="viewport"
-					content="width=device-width, initial-scale=1"
+					content="width=device-width,minimum-scale=1,user-scalable=yes,initial-scale=1,viewport-fit=cover"
 				/>
 
 				<Meta />

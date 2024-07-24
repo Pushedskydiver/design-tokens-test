@@ -29,6 +29,7 @@ async function buildTokens() {
 						'name/kebab',
 						'border/css/shorthand',
 						'fontFamily/css',
+						'size/px',
 						'typography/css/shorthand',
 						'ts/color/css/hexrgba',
 						'ts/color/modifiers',
@@ -39,12 +40,11 @@ async function buildTokens() {
 						'ts/shadow/innerShadow',
 						'ts/typography/fontWeight',
 					],
-					buildPath: 'src/styles/themes/',
+					buildPath: 'app/styles/themes/',
 					files: [
 						{
 							filter: (token) => {
-								const isSource =
-									token.filePath.match(/alias|base/);
+								const isSource = token.filePath.match(/core/);
 
 								return !isSource;
 							},

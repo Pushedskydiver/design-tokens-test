@@ -1,7 +1,7 @@
 import type { LinksFunction, MetaFunction } from '@remix-run/node';
 
-import styles from '../styles/themes/_hillarys.css?url';
-import typography from '../styles/typography/hillarys-typography.css?url';
+import styles from '../styles/themes/_thomas-sanderson.css?url';
+import typography from '../styles/typography/thomas-sanderson-typography.css?url';
 
 export const links: LinksFunction = () => [
 	{
@@ -20,15 +20,18 @@ export const links: LinksFunction = () => [
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: 'Hillarys brand' },
-		{ name: 'description', content: 'Design tokens of Hillarys brand' },
+		{ title: 'Thomas Sanderson brand' },
+		{
+			name: 'description',
+			content: 'Design tokens of Thomas Sanderson brand',
+		},
 	];
 };
 
-export default function Index() {
+export default function ThomasSanderson() {
 	return (
 		<main id="main">
-			<h1>Welcome to Hillarys design tokens</h1>
+			<h1>Welcome to Thomas Sanderson design tokens</h1>
 		</main>
 	);
 }

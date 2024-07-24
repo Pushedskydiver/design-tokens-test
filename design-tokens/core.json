@@ -560,15 +560,15 @@
       },
       "neutral": {
         "0": {
-          "value": "hsl(0, 0%, 0%)",
+          "value": "#525d66",
           "type": "color"
         },
         "10": {
-          "value": "hsl(0, 0%, 11%)",
+          "value": "#2E2C2C",
           "type": "color"
         },
         "20": {
-          "value": "hsl(0, 0%, 20%)",
+          "value": "#655D55",
           "type": "color"
         },
         "30": {
@@ -592,7 +592,7 @@
           "type": "color"
         },
         "80": {
-          "value": "hsl(0, 0%, 94%)",
+          "value": "#F5F5F5",
           "type": "color"
         },
         "90": {

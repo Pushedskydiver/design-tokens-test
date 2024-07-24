@@ -2,11 +2,11 @@
   "base": {
     "color": {
       "fg-default": {
-        "value": "{core.color.neutral.0}",
+        "value": "{core.color.neutral.10}",
         "type": "color"
       },
       "fg-weak": {
-        "value": "{core.color.neutral.50}",
+        "value": "{core.color.neutral.20}",
         "type": "color"
       },
       "bg-clear": {
@@ -380,15 +380,15 @@
     },
     "font-family": {
       "title": {
-        "value": "Arial",
+        "value": "Juana",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Arial",
+        "value": "Proxima Nova Alt",
         "type": "fontFamilies"
       },
       "interface": {
-        "value": "Arial",
+        "value": "Proxima Nova Alt",
         "type": "fontFamilies"
       }
     },
@@ -902,6 +902,56 @@
             },
             "type": "typography"
           }
+        },
+        "s": {
+          "value": {
+            "fontFamily": "{base.font-family.interface}",
+            "fontWeight": "{base.font-weight.interface-default}",
+            "lineHeight": "{base.line-height.interface}",
+            "fontSize": "{base.font-size.s}",
+            "paragraphSpacing": "{base.font-size.s} * {base.paragraph-spacing.interface}"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{base.font-family.interface}",
+            "fontWeight": "{base.font-weight.interface-default}",
+            "lineHeight": "{base.line-height.interface}",
+            "fontSize": "{base.font-size.sm}",
+            "paragraphSpacing": "{base.font-size.sm} * {base.paragraph-spacing.interface}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontFamily": "{base.font-family.interface}",
+            "fontWeight": "{base.font-weight.interface-strong}",
+            "lineHeight": "{base.line-height.interface}",
+            "fontSize": "{base.font-size.m}",
+            "paragraphSpacing": "{base.font-size.m} * {base.paragraph-spacing.interface}"
+          },
+          "type": "typography"
+        },
+        "ml": {
+          "value": {
+            "fontFamily": "{base.font-family.interface}",
+            "fontWeight": "{base.font-weight.interface-default}",
+            "lineHeight": "{base.line-height.interface}",
+            "fontSize": "{base.font-size.ml}",
+            "paragraphSpacing": "{base.font-size.ml} * {base.paragraph-spacing.interface}"
+          },
+          "type": "typography"
+        },
+        "l": {
+          "value": {
+            "fontFamily": "{base.font-family.interface}",
+            "fontWeight": "{base.font-weight.interface-default}",
+            "lineHeight": "{base.line-height.interface}",
+            "fontSize": "{base.font-size.l}",
+            "paragraphSpacing": "{base.font-size.l} * {base.paragraph-spacing.interface}"
+          },
+          "type": "typography"
         }
       }
     },

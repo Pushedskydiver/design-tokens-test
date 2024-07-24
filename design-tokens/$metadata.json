@@ -1,12 +1,8 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/presentation",
-    "themes/web-light",
-    "themes/web-dark",
-    "larger",
-    "rounder",
-    "highcontrast",
+    "themes/hillarys",
+    "themes/thomas-sanderson",
     "components/buttons/success",
     "components/buttons/error",
     "components/buttons/↳ special buttons",

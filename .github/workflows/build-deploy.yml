@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install & Tokens
+      - name: Install & Build Tokens
         run: |
           npm ci
           npm run build:tokens

@@ -1,4 +1,5 @@
 import { Link } from '@remix-run/react';
+import clsx from 'clsx';
 
 import styles from './card.module.css';
 
@@ -9,9 +10,16 @@ export type TCard = {
 	title: string;
 	bodyText: string;
 	cta?: TLink;
+	withPadding?: boolean;
 };
 
-export const Card: React.FC<TCard> = ({ id, title, bodyText, cta }) => (
+export const Card: React.FC<TCard> = ({
+	id,
+	title,
+	bodyText,
+	cta,
+	withPadding = true,
+}) => (
 	<article id={id} className={styles.card}>
 		<picture className={styles.picture}>
 			<source
@@ -43,7 +51,12 @@ export const Card: React.FC<TCard> = ({ id, title, bodyText, cta }) => (
 			/>
 		</picture>
 
-		<div className={styles.content}>
+		<div
+			className={clsx(
+				styles.content,
+				withPadding ? styles.contentWithPadding : false,
+			)}
+		>
 			<h3 className={styles.title}>{title}</h3>
 
 			<p className={styles.bodyText}>{bodyText}</p>

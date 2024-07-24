@@ -23,7 +23,7 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: 4rem;
 	background-color: var(--background-color);
 	color: var(--base-color-fg-weak);
 	font-family: var(--font-family-secondary);
@@ -39,6 +39,7 @@ body {
 
 h1,
 h2,
+h3,
 p {
 	margin-block: 0;
 }

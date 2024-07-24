@@ -3,15 +3,14 @@
 
 # production
 build
-public/entry.worker.js
 
 # local env files
 .env
 .env.*
 !.env.example
 
-# public storybook folder
-public/storybook
+# design tokens
+src/styles/themes
 
 # local Netlify folder
 .netlify
@@ -30,4 +29,3 @@ yarn-error.log*
 .DS_Store
 .dccache
 .cache
-*storybook.log

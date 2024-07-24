@@ -1,3 +1,4 @@
+import { Link } from '@remix-run/react';
 import { Card } from '~/components/02-molecules/card/card';
 
 import styles from '../styles/themes/_thomas-sanderson.css?url';
@@ -41,6 +42,8 @@ export default function ThomasSanderson(): JSX.Element {
 				bodyText="We were delighted when chef and Saturday Kitchen presenter Matt Tebbutt and his wife Lisa came to us looking for help with their beautiful Welsh home. Having helped them with shutter solutions for an unusual-shaped window, their attention switched to the outside, where our luxury patio awning could help create an exterior space that everyone would enjoy."
 				withPadding={false}
 			/>
+
+			<Link to="/">Hillarys</Link>
 		</main>
 	);
 }

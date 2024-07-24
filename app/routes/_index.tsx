@@ -1,3 +1,4 @@
+import { Link } from '@remix-run/react';
 import { Card } from '~/components/02-molecules/card/card';
 
 import styles from '../styles/themes/_hillarys.css?url';
@@ -37,6 +38,8 @@ export default function Index(): JSX.Element {
 				title="Summer Savings"
 				bodyText="Our in-home service has been transforming windows... lorem ipsum dolor sit amet consectetur. Vehicula interdum orci sodales."
 			/>
+
+			<Link to="/thomas-sanderson">Thomas Sanderson</Link>
 		</main>
 	);
 }

@@ -30,7 +30,11 @@ export const meta: MetaFunction = () => [
 	},
 ];
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({
+	children,
+}: {
+	children: React.ReactNode;
+}): JSX.Element {
 	return (
 		<html lang="en-GB">
 			<head>
@@ -38,6 +42,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<meta
 					name="viewport"
 					content="width=device-width,minimum-scale=1,user-scalable=yes,initial-scale=1,viewport-fit=cover"
+				/>
+				<link
+					rel="shortcut icon"
+					type="image/x-icon"
+					href="favicon.ico"
 				/>
 
 				<Meta />

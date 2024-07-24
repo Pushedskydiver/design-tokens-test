@@ -4,11 +4,7 @@
     "name": "hillarys",
     "selectedTokenSets": {
       "core": "source",
-      "components/textfields": "enabled",
-      "components/radiobuttons": "enabled",
-      "components/buttons/default buttons": "enabled",
-      "themes/hillarys": "enabled",
-      "themes/thomas-sanderson": "disabled"
+      "themes/hillarys": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -17,10 +13,6 @@
     "name": "thomas-sanderson",
     "selectedTokenSets": {
       "core": "source",
-      "components/textfields": "enabled",
-      "components/radiobuttons": "enabled",
-      "components/buttons/default buttons": "enabled",
-      "themes/hillarys": "disabled",
       "themes/thomas-sanderson": "enabled"
     },
     "$figmaStyleReferences": {}

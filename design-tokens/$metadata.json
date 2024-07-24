@@ -3,11 +3,6 @@
     "core",
     "themes/hillarys",
     "themes/thomas-sanderson",
-    "components/buttons/success",
-    "components/buttons/error",
-    "components/buttons/↳ special buttons",
-    "components/buttons/default buttons",
-    "components/textfields",
-    "components/radiobuttons"
+    "components/card"
   ]
 }

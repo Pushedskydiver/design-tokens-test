@@ -1,0 +1,10 @@
+{
+  "base": {
+    "space": {
+      "default": {
+        "value": "{core.dimension.150}",
+        "type": "spacing"
+      }
+    }
+  }
+}

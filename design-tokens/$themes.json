@@ -4,7 +4,8 @@
     "name": "hillarys",
     "selectedTokenSets": {
       "core": "source",
-      "themes/hillarys": "enabled"
+      "themes/hillarys": "enabled",
+      "components/card": "enabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -13,7 +14,8 @@
     "name": "thomas-sanderson",
     "selectedTokenSets": {
       "core": "source",
-      "themes/thomas-sanderson": "enabled"
+      "themes/thomas-sanderson": "enabled",
+      "components/card": "enabled"
     },
     "$figmaStyleReferences": {}
   }

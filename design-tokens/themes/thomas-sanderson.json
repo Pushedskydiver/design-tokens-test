@@ -53,91 +53,15 @@
         "value": "{core.color.neutral.100}",
         "type": "color"
       },
-      "selectable": {
-        "cloudy": {
-          "canvas-bg": {
-            "value": "{base.color.bg-clear}",
-            "type": "color"
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.clear.canvas-bg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "default": {
-            "value": "{core.color.neutral.20}",
-            "type": "color"
-          }
-        },
-        "clear": {
-          "canvas-bg": {
-            "value": "{base.color.bg-cloudy}",
-            "type": "color"
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.cloudy.canvas-bg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "default": {
-            "value": "{core.color.neutral.0}",
-            "type": "color"
-          }
-        },
+      "buttons": {
         "primary": {
-          "default": {
-            "value": "{core.color.romanticblue.30}",
-            "type": "color"
-          },
-          "on-default": {
+          "background": {
             "value": "{core.color.neutral.100}",
             "type": "color"
-          }
-        },
-        "secondary": {
-          "unselected": {
-            "bg": {
-              "value": "{core.color.electricsheep.40}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{core.color.electricsheep.50}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{core.color.neutral.100}",
-              "type": "color"
-            }
           },
-          "selected": {
-            "bg": {
-              "value": "{core.color.electricsheep.60}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{core.color.electricsheep.70}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{core.color.neutral.100}",
-              "type": "color"
-            }
+          "foreground": {
+            "value": "{core.color.neutral.20}",
+            "type": "color"
           }
         }
       },
@@ -196,6 +120,73 @@
           "pressed-lightness": {
             "value": "{base.color.modifiers.lightness-delta}",
             "type": "other"
+          }
+        }
+      },
+      "content": {
+        "primary": {
+          "darker": {
+            "value": "{core.color.romanticblue.30}",
+            "type": "color",
+            "description": "Your primary and secondary brand colors are not necessarily your primary and secondary interaction colors, that's why I added those tokens.",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta} * 4",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "default": {
+            "value": "{core.color.romanticblue.30}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{core.color.romanticblue.30}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta} * 4",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "secondary": {
+          "darker": {
+            "value": "{core.color.electricsheep.40}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta} * 4",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "default": {
+            "value": "{core.color.electricsheep.40}",
+            "type": "color"
+          },
+          "lighter": {
+            "value": "{core.color.electricsheep.40}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta} * 4",
+                  "space": "lch"
+                }
+              }
+            }
           }
         }
       }

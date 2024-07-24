@@ -17,241 +17,6 @@
         "value": "{core.color.neutral.80}",
         "type": "color"
       },
-      "selectable": {
-        "cloudy": {
-          "canvas-bg": {
-            "value": "{base.color.bg-clear}",
-            "type": "color"
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.clear.canvas-bg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "default": {
-            "value": "{core.color.neutral.80}",
-            "type": "color"
-          }
-        },
-        "clear": {
-          "canvas-bg": {
-            "value": "{base.color.bg-cloudy}",
-            "type": "color"
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.cloudy.canvas-bg}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "default": {
-            "value": "{core.color.neutral.100}",
-            "type": "color"
-          }
-        },
-        "primary": {
-          "default": {
-            "value": "{core.color.romanticblue.40}",
-            "type": "color",
-            "description": "Only two colors needed when color modifiers are used on component level."
-          },
-          "on-default": {
-            "value": "{core.color.neutral.100}",
-            "type": "color"
-          }
-        },
-        "secondary": {
-          "unselected": {
-            "bg": {
-              "value": "{core.color.electricsheep.40}",
-              "type": "color",
-              "description": "Only 6 tokens needed with the use of some color modifiers on component level."
-            },
-            "border": {
-              "value": "{core.color.electricsheep.30}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{core.color.neutral.100}",
-              "type": "color"
-            }
-          },
-          "selected": {
-            "bg": {
-              "value": "{core.color.electricsheep.60}",
-              "type": "color"
-            },
-            "border": {
-              "value": "{core.color.electricsheep.50}",
-              "type": "color"
-            },
-            "fg": {
-              "value": "{core.color.neutral.100}",
-              "type": "color"
-            }
-          }
-        },
-        "tertiary": {
-          "unselected": {
-            "enabled": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color",
-                "description": "The old-school way without color modifiers on component level."
-              },
-              "border": {
-                "value": "{core.color.electricsheep.40}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.40}",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{core.color.electricsheep.50}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.50}",
-                "type": "color"
-              }
-            },
-            "pressed": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{core.color.electricsheep.30}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.30}",
-                "type": "color"
-              }
-            }
-          },
-          "selected": {
-            "enabled": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{core.color.electricsheep.60}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.60}",
-                "type": "color"
-              }
-            },
-            "hover": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{core.color.electricsheep.70}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.70}",
-                "type": "color"
-              }
-            },
-            "pressed": {
-              "bg": {
-                "value": "{core.color.transparent}",
-                "type": "color"
-              },
-              "border": {
-                "value": "{core.color.electricsheep.50}",
-                "type": "color"
-              },
-              "fg": {
-                "value": "{core.color.electricsheep.50}",
-                "type": "color"
-              }
-            }
-          }
-        },
-        "success": {
-          "canvas-bg": {
-            "value": "{core.color.goblinwarboss.60}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{base.color.modifiers.canvas-alpha}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.success.default}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{core.color.goblinwarboss.60}",
-            "type": "color"
-          },
-          "on-default": {
-            "value": "{core.color.neutral.100}",
-            "type": "color"
-          }
-        },
-        "error": {
-          "canvas-bg": {
-            "value": "{core.color.bloodburst.40}",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "{base.color.modifiers.canvas-alpha}",
-                  "space": "lch"
-                }
-              }
-            }
-          },
-          "canvas-border": {
-            "value": "{base.color.selectable.error.default}",
-            "type": "color"
-          },
-          "default": {
-            "value": "{core.color.bloodburst.40}",
-            "type": "color"
-          },
-          "on-default": {
-            "value": "{core.color.neutral.100}",
-            "type": "color"
-          }
-        }
-      },
       "modifiers": {
         "enabled-alpha": {
           "value": "1",
@@ -374,6 +139,18 @@
                 }
               }
             }
+          }
+        }
+      },
+      "buttons": {
+        "primary": {
+          "background": {
+            "value": "{core.color.neutral.100}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{core.color.neutral.20}",
+            "type": "color"
           }
         }
       }
@@ -1041,7 +818,7 @@
           "y": "0",
           "blur": "0",
           "spread": "{core.dimension.25}",
-          "color": "{base.color.selectable.primary.default}",
+          "color": "{base.color.buttons.primary.background}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

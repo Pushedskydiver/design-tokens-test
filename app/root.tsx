@@ -63,10 +63,10 @@ export function Layout({
 	);
 }
 
-export default function App() {
+export default function App(): JSX.Element {
 	return <Outlet />;
 }
 
-export function HydrateFallback() {
+export function HydrateFallback(): JSX.Element {
 	return <p>Loading...</p>;
 }

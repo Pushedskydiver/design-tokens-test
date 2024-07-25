@@ -1,6 +1,5 @@
 .card {
 	max-inline-size: 35rem;
-	margin-block: 4rem;
 	margin-inline: auto;
 	background-color: var(--base-color-bg-cloudy);
 }

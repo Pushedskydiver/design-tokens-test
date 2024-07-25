@@ -73,8 +73,10 @@ export const Card: React.FC<TCard> = ({
 					src="https://picsum.photos/300/200.jpg"
 					loading="lazy"
 					decoding="async"
-					className={styles.image}
 					alt=""
+					width="300"
+					height="200"
+					className={styles.image}
 				/>
 			</picture>
 

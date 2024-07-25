@@ -8,12 +8,14 @@ export type TLinkButton = React.AnchorHTMLAttributes<HTMLAnchorElement> &
 	CtaShared;
 
 type CtaShared = React.PropsWithChildren<{
+	varaint?: 'primary' | 'secondary';
 	className?: string;
 }>;
 
 export const Button: React.FC<TButton> = ({
 	children,
 	type = 'button',
+	varaint = 'primary',
 	className,
 	onClick,
 	...buttonAttributes
@@ -27,8 +29,8 @@ export const Button: React.FC<TButton> = ({
 	return (
 		<button
 			type={type}
+			className={clsx(styles.cta, styles[varaint], className)}
 			onClick={handleClick}
-			className={clsx(styles.button, className)}
 			{...buttonAttributes}
 		>
 			{children}
@@ -38,9 +40,10 @@ export const Button: React.FC<TButton> = ({
 
 export const LinkButton: React.FC<TLinkButton> = ({
 	href,
-	children,
+	varaint = 'primary',
 	className,
 	onClick,
+	children,
 	...linkAttributes
 }) => {
 	const handleClick = (e: React.MouseEvent<HTMLAnchorElement>): void => {
@@ -52,8 +55,8 @@ export const LinkButton: React.FC<TLinkButton> = ({
 	return (
 		<a
 			href={href}
+			className={clsx(styles.cta, styles[varaint], className)}
 			onClick={handleClick}
-			className={clsx(styles.cta, className)}
 			{...linkAttributes}
 		>
 			{children}

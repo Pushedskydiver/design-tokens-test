@@ -5,6 +5,7 @@ import styles from '../styles/themes/_hillarys.css?url';
 import typography from '../styles/typography/hillarys-typography.css?url';
 
 import type { LinksFunction, MetaFunction } from '@remix-run/node';
+import { Hero } from '~/components/02-molecules/hero/hero';
 
 export const links: LinksFunction = () => [
 	{
@@ -31,7 +32,11 @@ export const meta: MetaFunction = () => {
 export default function Index(): JSX.Element {
 	return (
 		<main id="main">
-			<h1>Hillarys brand</h1>
+			<Hero
+				id="hillarys-hero"
+				title="Extra savings are here"
+				bodyText="We've up to 40% off selected styles PLUS there's 10% off everything for a limited time. And remember, we always take care of the measuring and fitting so you can be sure of a job well done."
+			/>
 
 			<Card
 				id="hillarys-sale-card"

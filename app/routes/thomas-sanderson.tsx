@@ -54,7 +54,7 @@ export default function ThomasSanderson(): JSX.Element {
 			<Hero
 				id="thomas-sanderson-hero"
 				title="Beautifully bespoke solutions"
-				bodyText="We've up to 40% off selected styles PLUS there's 10% off everything for a limited time. And remember, we always take care of the measuring and fitting so you can be sure of a job well done."
+				bodyText="Since Thomas Sanderson began over 30 years ago we've been passionate about designing, crafting and installing superior custom-made shutters, blinds, awnings and garage doors. Precision, expertise and service are at the heart of what we do, from in-home consultation to expert installation. Our extraordinary solutions help you master the light and specialist products help you reduce heat loss at your windows."
 				webPSrcSet={heroImageWebPSrcSets}
 				srcSet={heroImageSrcSets}
 				src="/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.png"

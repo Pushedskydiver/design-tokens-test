@@ -1,7 +1,22 @@
+@value --breakpoints: '../../../styles/modules/breakpoints.module.css';
+@value --bp-medium from --breakpoints;
+
+.hero {
+	@media (width >= --bp-medium) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
 .picture {
 	position: relative;
 	display: block;
 	aspect-ratio: 1/1;
+	background-color: var(--base-color-fg-weak);
+
+	@media (width >= --bp-medium) {
+		aspect-ratio: 4/3;
+	}
 }
 
 .image {
@@ -14,6 +29,14 @@
 
 .content {
 	padding: var(--base-space-container-stack-m);
+	background-color: var(--base-color-bg-cloudy);
+
+	@media (width >= --bp-medium) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 .title {
@@ -25,10 +48,22 @@
 }
 
 .bodyText {
+	max-inline-size: 55rem;
 	margin-block-start: var(--base-space-container-stack-s);
 	color: var(--base-color-fg-weak);
 	font-family: var(--base-typography-body-m-font-family);
 	font-size: var(--base-typography-body-m-font-size);
 	font-weight: var(--base-typography-body-m-font-weight);
 	line-height: var(--base-typography-body-m-line-height);
+	text-align: center;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--base-space-container-stack-s);
+	justify-content: center;
+	margin-block: var(--base-space-container-stack-m) 0;
+	padding-inline-start: 0;
+	list-style-type: none;
 }

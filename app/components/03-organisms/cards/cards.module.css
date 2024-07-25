@@ -1,0 +1,20 @@
+@value containers: '../../../styles/modules/container.module.css';
+@value --breakpoints: '../../../styles/modules/breakpoints.module.css';
+@value --bp-medium from --breakpoints;
+
+.list {
+	--container: var(--container-max-width);
+
+	composes: container from containers;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--base-space-page-inside-m);
+	margin-block: 0;
+	padding-block: var(--base-space-page-inside-m);
+	padding-inline-start: 0;
+	list-style-type: none;
+
+	@media (width >= --bp-medium) {
+		padding-block: var(--base-space-page-inside-l);
+	}
+}

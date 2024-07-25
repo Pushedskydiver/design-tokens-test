@@ -64,6 +64,6 @@
 	gap: var(--base-space-container-stack-s);
 	justify-content: center;
 	margin-block: var(--base-space-container-stack-m) 0;
-	padding-inline-start: 0;
+	padding-inline: 0;
 	list-style-type: none;
 }

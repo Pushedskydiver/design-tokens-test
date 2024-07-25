@@ -729,7 +729,7 @@
       },
       "selectable": {
         "m": {
-          "value": "{base.border-radius.scale} * {core.border-radius.25}",
+          "value": "{base.border-radius.scale} * {core.border-radius.0}",
           "type": "borderRadius"
         },
         "pill": {

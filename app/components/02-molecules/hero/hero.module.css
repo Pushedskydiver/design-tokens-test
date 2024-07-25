@@ -45,6 +45,7 @@
 	font-size: var(--base-typography-title-xxxl-font-size);
 	font-weight: var(--base-typography-title-xxxl-font-weight);
 	line-height: var(--base-typography-title-xxxl-line-height);
+	text-align: center;
 }
 
 .bodyText {

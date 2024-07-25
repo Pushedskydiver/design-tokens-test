@@ -9,6 +9,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: var(--base-space-page-inside-m);
+	justify-content: center;
 	margin-block: 0;
 	padding-block: var(--base-space-page-inside-m);
 	padding-inline-start: 0;

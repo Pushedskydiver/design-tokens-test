@@ -1,13 +1,29 @@
 import { CtaContent, LinkButton } from '~/components/01-atoms/cta/cta';
 import styles from './hero.module.css';
 
+import type { TLink } from '~/global-types';
+
 export type THero = {
 	id: string;
 	title: string;
+	src: string;
+	webPSrc: string;
+	srcSet: string;
+	webPSrcSet: string;
 	bodyText?: string;
+	ctas?: TLink[];
 };
 
-export const Hero: React.FC<THero> = ({ id, title, bodyText }) => {
+export const Hero: React.FC<THero> = ({
+	id,
+	title,
+	bodyText,
+	ctas,
+	src,
+	webPSrc,
+	srcSet,
+	webPSrcSet,
+}) => {
 	const titleId = `${id}-hero`;
 
 	return (
@@ -18,27 +34,16 @@ export const Hero: React.FC<THero> = ({ id, title, bodyText }) => {
 		>
 			<picture className={styles.picture}>
 				<source
-					srcSet="
-						https://picsum.photos/200/200.webp 200w,
-						https://picsum.photos/845/845.webp 845w,
-						https://picsum.photos/1237/1237.webp 1237w,
-						https://picsum.photos/1564/1564.webp 1564w,
-						https://picsum.photos/2000/2000.webp 2000w
-					"
-					src="https://picsum.photos/300/300.webp"
+					sizes="(max-width: 1920px) 100vw, 1920px"
+					srcSet={webPSrcSet}
+					src={webPSrc}
 					type="image/webp"
 				/>
 
 				<img
-					sizes="(max-width: 2000px) 100vw, 2000px"
-					srcSet="
-						https://picsum.photos/200/200.jpg 200w,
-						https://picsum.photos/845/845.jpg 845w,
-						https://picsum.photos/1237/1237.jpg 1237w,
-						https://picsum.photos/1564/1564.jpg 1564w,
-						https://picsum.photos/2000/2000.jpg 2000w
-					"
-					src="https://picsum.photos/300/300.jpg"
+					sizes="(max-width: 1920px) 100vw, 1920px"
+					srcSet={srcSet}
+					src={src}
 					loading="lazy"
 					decoding="async"
 					alt=""
@@ -55,25 +60,19 @@ export const Hero: React.FC<THero> = ({ id, title, bodyText }) => {
 					<p className={styles.bodyText}>{bodyText}</p>
 				) : null}
 
-				<ul className={styles.list}>
-					<li className={styles.item}>
-						<LinkButton href="#" varaint="secondary">
-							<CtaContent.Text>Blinds</CtaContent.Text>
-						</LinkButton>
-					</li>
-
-					<li className={styles.item}>
-						<LinkButton href="#" varaint="secondary">
-							<CtaContent.Text>Curtains</CtaContent.Text>
-						</LinkButton>
-					</li>
-
-					<li className={styles.item}>
-						<LinkButton href="#" varaint="secondary">
-							<CtaContent.Text>Shutters</CtaContent.Text>
-						</LinkButton>
-					</li>
-				</ul>
+				{ctas ? (
+					<ul className={styles.list}>
+						{ctas.map((cta, i) => (
+							<li key={i}>
+								<LinkButton href={cta.href} varaint="secondary">
+									<CtaContent.Text>
+										{cta.label}
+									</CtaContent.Text>
+								</LinkButton>
+							</li>
+						))}
+					</ul>
+				) : null}
 			</div>
 		</section>
 	);

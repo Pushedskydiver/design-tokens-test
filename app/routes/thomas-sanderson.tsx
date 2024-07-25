@@ -33,12 +33,32 @@ export const meta: MetaFunction = () => {
 };
 
 export default function ThomasSanderson(): JSX.Element {
+	const heroImageWebPSrcSets = `
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.webp 200w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-975.webp 975w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1294.webp 1294w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1627.webp 1627w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1920.webp 1920w
+	`;
+
+	const heroImageSrcSets = `
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.png 200w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-975.png 975w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1294.png 1294w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1627.png 1627w,
+		/design-tokens-test/images/thomas-sanderson/awnings/awnings-1920.png 1920w
+	`;
+
 	return (
 		<main id="main">
 			<Hero
 				id="thomas-sanderson-hero"
 				title="Beautifully bespoke solutions"
 				bodyText="We've up to 40% off selected styles PLUS there's 10% off everything for a limited time. And remember, we always take care of the measuring and fitting so you can be sure of a job well done."
+				webPSrcSet={heroImageWebPSrcSets}
+				srcSet={heroImageSrcSets}
+				src="/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.png"
+				webPSrc="/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.webp"
 			/>
 
 			<Cards
@@ -54,6 +74,20 @@ export default function ThomasSanderson(): JSX.Element {
 							href: '#',
 							label: "Matt Tebbutt's outdoor awning",
 						},
+						sizes: '(max-width: 1200px) 100vw, 1200px',
+						webPSrcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-200.webp 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-816.webp 816w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-1200.webp 1200w,
+						`,
+						srcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-200.png 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-816.png 816w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-1200.png 1200w,
+						`,
+						webPSrc:
+							'/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-200.webp',
+						src: '/design-tokens-test/images/thomas-sanderson/blinds/blinds-1-200.png',
 					},
 					{
 						id: 'thomas-sanderson-card-2',
@@ -65,6 +99,20 @@ export default function ThomasSanderson(): JSX.Element {
 							href: '#',
 							label: "Matt Tebbutt's outdoor awning",
 						},
+						sizes: '(max-width: 1200px) 100vw, 1200px',
+						webPSrcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-200.webp 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-815.webp 815w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-1200.webp 1200w,
+						`,
+						srcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-200.png 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-815.png 815w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-1200.png 1200w,
+						`,
+						webPSrc:
+							'/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-200.webp',
+						src: '/design-tokens-test/images/thomas-sanderson/blinds/blinds-2-200.png',
 					},
 					{
 						id: 'thomas-sanderson-card-3',
@@ -76,11 +124,25 @@ export default function ThomasSanderson(): JSX.Element {
 							href: '#',
 							label: "Matt Tebbutt's outdoor awning",
 						},
+						sizes: '(max-width: 1200px) 100vw, 1200px',
+						webPSrcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-200.webp 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-816.webp 816w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-1200.webp 1200w,
+						`,
+						srcSet: `
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-200.png 200w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-816.png 816w,
+							/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-1200.png 1200w,
+						`,
+						webPSrc:
+							'/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-200.webp',
+						src: '/design-tokens-test/images/thomas-sanderson/blinds/blinds-4-200.png',
 					},
 				]}
 			/>
 
-			<Link to="/">Hillarys brand</Link>
+			<Link to="/">thomas-sanderson brand</Link>
 		</main>
 	);
 }

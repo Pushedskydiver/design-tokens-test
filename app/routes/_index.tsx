@@ -31,15 +31,20 @@ export const meta: MetaFunction = () => {
 export default function Index(): JSX.Element {
 	return (
 		<main id="main">
-			<h1>Welcome to Hillarys design tokens</h1>
+			<h1>Hillarys brand</h1>
 
 			<Card
 				id="hillarys-sale-card"
 				title="Summer Savings"
 				bodyText="Our in-home service has been transforming windows... lorem ipsum dolor sit amet consectetur. Vehicula interdum orci sodales."
+				cta={{
+					type: 'cta',
+					href: '#',
+					label: 'More about electric blinds',
+				}}
 			/>
 
-			<Link to="/thomas-sanderson">Thomas Sanderson</Link>
+			<Link to="/thomas-sanderson">Thomas Sanderson brand</Link>
 		</main>
 	);
 }

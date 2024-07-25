@@ -1,0 +1,20 @@
+.cta {
+	background-color: var(--base-color-buttons-primary-background);
+	color: var(--base-color-buttons-primary-foreground);
+	border: 2px solid var(--base-color-buttons-primary-foreground);
+	border-radius: var(--base-border-radius-selectable-m);
+	padding-block: var(--base-space-container-inset-s);
+	padding-inline: var(--base-space-container-inset-m);
+	font-family: var(--base-typography-interface-strong-sm-font-family);
+	font-size: var(--base-typography-interface-strong-sm-font-size);
+	line-height: var(--base-typography-interface-strong-sm-line-height);
+}
+
+.cta:is(a) {
+	text-decoration: none;
+}
+
+.content {
+	font-weight: var(--base-typography-interface-strong-sm-font-weight);
+	text-transform: uppercase;
+}

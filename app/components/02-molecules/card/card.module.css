@@ -1,6 +1,6 @@
 .card {
 	max-inline-size: 35rem;
-	margin-block: 2rem;
+	margin-block: 4rem;
 	background-color: var(--base-color-bg-cloudy);
 }
 
@@ -44,4 +44,8 @@
 	font-size: var(--base-typography-body-m-font-size);
 	font-weight: var(--base-typography-body-m-font-weight);
 	line-height: var(--base-typography-body-m-line-height);
+}
+
+.cta {
+	justify-self: start;
 }

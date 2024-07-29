@@ -1,4 +1,4 @@
-import { Link } from '@remix-run/react';
+import { CtaContent, LinkButton } from '~/components/01-atoms/cta/cta';
 import { Hero } from '~/components/02-molecules/hero/hero';
 import { Cards } from '~/components/03-organisms/cards/cards';
 
@@ -28,7 +28,6 @@ export const meta: MetaFunction = () => {
 		{ name: 'description', content: 'Design tokens of Hillarys brand' },
 	];
 };
-
 export default function Index(): JSX.Element {
 	const heroImageWebPSrcSets = `
 		/design-tokens-test/images/hillarys/bespoke/bespoke-200.webp 200w,
@@ -153,7 +152,9 @@ export default function Index(): JSX.Element {
 				]}
 			/>
 
-			<Link to="/thomas-sanderson">Thomas Sanderson brand</Link>
+			<LinkButton href="/thomas-sanderson" className="brand-link">
+				<CtaContent.Text>Thomas Sanderson brand</CtaContent.Text>
+			</LinkButton>
 		</main>
 	);
 }

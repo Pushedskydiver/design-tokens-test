@@ -1,10 +1,13 @@
+import { Link } from '@remix-run/react';
 import clsx from 'clsx';
 
 import styles from './cta.module.css';
 
 export type TButton = React.ButtonHTMLAttributes<HTMLButtonElement> & CtaShared;
 
-export type TLinkButton = React.AnchorHTMLAttributes<HTMLAnchorElement> &
+export type TLinkButton = {
+	href: string;
+} & Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> &
 	CtaShared;
 
 type CtaShared = React.PropsWithChildren<{
@@ -46,21 +49,36 @@ export const LinkButton: React.FC<TLinkButton> = ({
 	children,
 	...linkAttributes
 }) => {
+	const isExternal = href?.includes('http');
+
 	const handleClick = (e: React.MouseEvent<HTMLAnchorElement>): void => {
 		if (onClick) {
 			onClick(e);
 		}
 	};
 
+	if (isExternal) {
+		return (
+			<a
+				href={href}
+				className={clsx(styles.cta, styles[varaint], className)}
+				onClick={handleClick}
+				{...linkAttributes}
+			>
+				{children}
+			</a>
+		);
+	}
+
 	return (
-		<a
-			href={href}
+		<Link
+			to={href}
 			className={clsx(styles.cta, styles[varaint], className)}
 			onClick={handleClick}
 			{...linkAttributes}
 		>
 			{children}
-		</a>
+		</Link>
 	);
 };
 

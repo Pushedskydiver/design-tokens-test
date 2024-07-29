@@ -69,3 +69,9 @@ select {
 	font-family: inherit;
 	appearance: none;
 }
+
+.brand-link {
+	inline-size: max-content;
+	margin-block-end: 2rem;
+	margin-inline: auto;
+}

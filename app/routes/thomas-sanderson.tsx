@@ -1,4 +1,4 @@
-import { Link } from '@remix-run/react';
+import { CtaContent, LinkButton } from '~/components/01-atoms/cta/cta';
 import { Hero } from '~/components/02-molecules/hero/hero';
 import { Cards } from '~/components/03-organisms/cards/cards';
 
@@ -142,7 +142,9 @@ export default function ThomasSanderson(): JSX.Element {
 				]}
 			/>
 
-			<Link to="/">thomas-sanderson brand</Link>
+			<LinkButton href="/" className="brand-link">
+				<CtaContent.Text>Hillarys brand</CtaContent.Text>
+			</LinkButton>
 		</main>
 	);
 }

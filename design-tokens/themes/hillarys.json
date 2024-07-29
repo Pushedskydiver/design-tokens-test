@@ -155,7 +155,7 @@
         },
         "secondary": {
           "background": {
-            "value": "{core.color.neutral.20}",
+            "value": "{core.color.romanticblue.30}",
             "type": "color"
           },
           "foreground": {

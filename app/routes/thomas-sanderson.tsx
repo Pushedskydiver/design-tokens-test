@@ -59,6 +59,20 @@ export default function ThomasSanderson(): JSX.Element {
 				srcSet={heroImageSrcSets}
 				src="/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.png"
 				webPSrc="/design-tokens-test/images/thomas-sanderson/awnings/awnings-200.webp"
+				ctas={[
+					{
+						href: '#',
+						label: 'Blinds',
+					},
+					{
+						href: '#',
+						label: 'Curtains',
+					},
+					{
+						href: '#',
+						label: 'Shutters',
+					},
+				]}
 			/>
 
 			<Cards

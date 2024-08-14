@@ -2,1129 +2,1130 @@
   "core": {
     "color": {
       "transparent": {
-        "value": "rgba(#000000, 0)",
-        "type": "color"
+        "$type": "color",
+        "$value": "rgba(#000000, 0)"
       },
       "bloodburst": {
         "0": {
-          "value": "hsl(0, 55%, 13%)",
-          "type": "color",
-          "description": "You can use one or two gradients per color. If you use one, you have to manuall remap all colors for e.g. dark mode that you want to be changed. If you use two gradients, you can automatially reference the dark gradient (mirrored light gradient) and then you have to manually remap all colors that you want to stay the same."
+          "$type": "color",
+          "$value": "hsl(0, 55%, 13%)",
+          "$description": "You can use one or two gradients per color. If you use one, you have to manuall remap all colors for e.g. dark mode that you want to be changed. If you use two gradients, you can automatially reference the dark gradient (mirrored light gradient) and then you have to manually remap all colors that you want to stay the same."
         },
         "10": {
-          "value": "hsl(0, 53%, 20%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 53%, 20%)"
         },
         "20": {
-          "value": "hsl(0, 53%, 36%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 53%, 36%)"
         },
         "30": {
-          "value": "hsl(0, 56%, 51%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 56%, 51%)"
         },
         "40": {
-          "value": "hsl(0, 100%, 66%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 66%)"
         },
         "50": {
-          "value": "hsl(0, 100%, 77%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 77%)"
         },
         "60": {
-          "value": "hsl(0, 100%, 85%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 85%)"
         },
         "70": {
-          "value": "hsl(0, 100%, 90%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 90%)"
         },
         "80": {
-          "value": "hsl(0, 100%, 95%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 95%)"
         },
         "90": {
-          "value": "hsl(0, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 98%)"
         },
         "100": {
-          "value": "hsl(0, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 100%, 99%)"
         }
       },
       "blazingorange": {
         "0": {
-          "value": "hsl(30, 54%, 9%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 54%, 9%)"
         },
         "10": {
-          "value": "hsl(30, 53%, 15%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 53%, 15%)"
         },
         "20": {
-          "value": "hsl(30, 54%, 27%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 54%, 27%)"
         },
         "30": {
-          "value": "hsl(30, 54%, 39%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 54%, 39%)"
         },
         "40": {
-          "value": "hsl(30, 54%, 50%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 54%, 50%)"
         },
         "50": {
-          "value": "hsl(30, 80%, 60%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 80%, 60%)"
         },
         "60": {
-          "value": "hsl(30, 100%, 71%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 100%, 71%)"
         },
         "70": {
-          "value": "hsl(30, 100%, 82%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 100%, 82%)"
         },
         "80": {
-          "value": "hsl(31, 100%, 90%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(31, 100%, 90%)"
         },
         "90": {
-          "value": "hsl(30, 100%, 96%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(30, 100%, 96%)"
         },
         "100": {
-          "value": "hsl(24, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(24, 100%, 99%)"
         }
       },
       "buttercake": {
         "0": {
-          "value": "hsl(60, 56%, 7%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 56%, 7%)"
         },
         "10": {
-          "value": "hsl(60, 54%, 11%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 54%, 11%)"
         },
         "20": {
-          "value": "hsl(60, 54%, 20%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 54%, 20%)"
         },
         "30": {
-          "value": "hsl(60, 53%, 29%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 53%, 29%)"
         },
         "40": {
-          "value": "hsl(60, 53%, 38%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 53%, 38%)"
         },
         "50": {
-          "value": "hsl(60, 54%, 45%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 54%, 45%)"
         },
         "60": {
-          "value": "hsl(60, 58%, 52%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 58%, 52%)"
         },
         "70": {
-          "value": "hsl(60, 72%, 57%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 72%, 57%)"
         },
         "80": {
-          "value": "hsl(60, 86%, 62%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 86%, 62%)"
         },
         "90": {
-          "value": "hsl(60, 98%, 85%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 98%, 85%)"
         },
         "100": {
-          "value": "hsl(60, 100%, 95%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(60, 100%, 95%)"
         }
       },
       "irradiatedgreen": {
         "0": {
-          "value": "hsl(89, 54%, 8%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(89, 54%, 8%)"
         },
         "10": {
-          "value": "hsl(89, 54%, 12%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(89, 54%, 12%)"
         },
         "20": {
-          "value": "hsl(90, 54%, 22%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 54%, 22%)"
         },
         "30": {
-          "value": "hsl(90, 54%, 31%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 54%, 31%)"
         },
         "40": {
-          "value": "hsl(90, 53%, 40%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 53%, 40%)"
         },
         "50": {
-          "value": "hsl(90, 54%, 48%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 54%, 48%)"
         },
         "60": {
-          "value": "hsl(90, 67%, 55%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 67%, 55%)"
         },
         "70": {
-          "value": "hsl(90, 85%, 61%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 85%, 61%)"
         },
         "80": {
-          "value": "hsl(90, 100%, 70%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 100%, 70%)"
         },
         "90": {
-          "value": "hsl(90, 100%, 89%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(90, 100%, 89%)"
         },
         "100": {
-          "value": "hsl(92, 100%, 97%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(92, 100%, 97%)"
         }
       },
       "goblinwarboss": {
         "0": {
-          "value": "hsl(120, 52%, 8%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 52%, 8%)"
         },
         "10": {
-          "value": "hsl(120, 54%, 13%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 54%, 13%)"
         },
         "20": {
-          "value": "hsl(120, 54%, 23%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 54%, 23%)"
         },
         "30": {
-          "value": "hsl(120, 53%, 33%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 53%, 33%)"
         },
         "40": {
-          "value": "hsl(120, 53%, 42%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 53%, 42%)"
         },
         "50": {
-          "value": "hsl(120, 54%, 50%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 54%, 50%)"
         },
         "60": {
-          "value": "hsl(120, 72%, 57%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 72%, 57%)"
         },
         "70": {
-          "value": "hsl(120, 94%, 64%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 94%, 64%)"
         },
         "80": {
-          "value": "hsl(120, 100%, 82%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 100%, 82%)"
         },
         "90": {
-          "value": "hsl(120, 100%, 93%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 100%, 93%)"
         },
         "100": {
-          "value": "hsl(120, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(120, 100%, 98%)"
         }
       },
       "seagreen": {
         "0": {
-          "value": "hsl(150, 55%, 8%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 55%, 8%)"
         },
         "10": {
-          "value": "hsl(150, 53%, 13%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 53%, 13%)"
         },
         "20": {
-          "value": "hsl(150, 53%, 23%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 53%, 23%)"
         },
         "30": {
-          "value": "hsl(150, 54%, 32%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 54%, 32%)"
         },
         "40": {
-          "value": "hsl(150, 54%, 41%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 54%, 41%)"
         },
         "50": {
-          "value": "hsl(150, 53%, 50%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 53%, 50%)"
         },
         "60": {
-          "value": "hsl(150, 70%, 57%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 70%, 57%)"
         },
         "70": {
-          "value": "hsl(150, 90%, 63%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 90%, 63%)"
         },
         "80": {
-          "value": "hsl(150, 100%, 79%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(150, 100%, 79%)"
         },
         "90": {
-          "value": "hsl(149, 100%, 92%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(149, 100%, 92%)"
         },
         "100": {
-          "value": "hsl(147, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(147, 100%, 98%)"
         }
       },
       "electricsheep": {
         "0": {
-          "value": "hsl(180, 54%, 8%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 54%, 8%)"
         },
         "10": {
-          "value": "hsl(180, 55%, 12%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 55%, 12%)"
         },
         "20": {
-          "value": "hsl(180, 54%, 22%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 54%, 22%)"
         },
         "30": {
-          "value": "hsl(180, 54%, 31%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 54%, 31%)"
         },
         "40": {
-          "value": "hsl(180, 53%, 40%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 53%, 40%)"
         },
         "50": {
-          "value": "hsl(180, 54%, 48%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 54%, 48%)"
         },
         "60": {
-          "value": "hsl(180, 66%, 55%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 66%, 55%)"
         },
         "70": {
-          "value": "hsl(180, 84%, 61%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 84%, 61%)"
         },
         "80": {
-          "value": "hsl(180, 100%, 72%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 100%, 72%)"
         },
         "90": {
-          "value": "hsl(180, 100%, 90%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 100%, 90%)"
         },
         "100": {
-          "value": "hsl(180, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(180, 100%, 98%)"
         }
       },
       "joustblue": {
         "0": {
-          "value": "hsl(210, 54%, 11%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 54%, 11%)"
         },
         "10": {
-          "value": "hsl(211, 53%, 17%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(211, 53%, 17%)"
         },
         "20": {
-          "value": "hsl(210, 54%, 31%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 54%, 31%)"
         },
         "30": {
-          "value": "hsl(210, 54%, 45%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 54%, 45%)"
         },
         "40": {
-          "value": "hsl(210, 73%, 58%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 73%, 58%)"
         },
         "50": {
-          "value": "hsl(210, 100%, 69%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 100%, 69%)"
         },
         "60": {
-          "value": "hsl(210, 100%, 79%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 100%, 79%)"
         },
         "70": {
-          "value": "hsl(210, 100%, 87%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 100%, 87%)"
         },
         "80": {
-          "value": "hsl(210, 100%, 93%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 100%, 93%)"
         },
         "90": {
-          "value": "hsl(208, 100%, 97%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(208, 100%, 97%)"
         },
         "100": {
-          "value": "hsl(210, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(210, 100%, 99%)"
         }
       },
       "romanticblue": {
         "0": {
-          "value": "hsl(240, 53%, 17%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 53%, 17%)"
         },
         "10": {
-          "value": "hsl(240, 54%, 27%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 54%, 27%)"
         },
         "20": {
-          "value": "hsl(240, 54%, 48%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 54%, 48%)"
         },
         "30": {
-          "value": "hsl(240, 100%, 67%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 67%)"
         },
         "40": {
-          "value": "hsl(240, 100%, 75%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 75%)"
         },
         "50": {
-          "value": "hsl(240, 100%, 82%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 82%)"
         },
         "60": {
-          "value": "hsl(240, 100%, 87%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 87%)"
         },
         "70": {
-          "value": "hsl(240, 100%, 92%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 92%)"
         },
         "80": {
-          "value": "hsl(240, 100%, 95%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 95%)"
         },
         "90": {
-          "value": "hsl(240, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 98%)"
         },
         "100": {
-          "value": "hsl(240, 100%, 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(240, 100%, 100%)"
         }
       },
       "vegaviolet": {
         "0": {
-          "value": "hsl(270, 54%, 15%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 54%, 15%)"
         },
         "10": {
-          "value": "hsl(270, 53%, 23%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 53%, 23%)"
         },
         "20": {
-          "value": "hsl(270, 54%, 41%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 54%, 41%)"
         },
         "30": {
-          "value": "hsl(270, 74%, 58%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 74%, 58%)"
         },
         "40": {
-          "value": "hsl(270, 100%, 71%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 100%, 71%)"
         },
         "50": {
-          "value": "hsl(270, 100%, 79%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 100%, 79%)"
         },
         "60": {
-          "value": "hsl(270, 100%, 86%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 100%, 86%)"
         },
         "70": {
-          "value": "hsl(271, 100%, 91%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(271, 100%, 91%)"
         },
         "80": {
-          "value": "hsl(270, 100%, 95%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 100%, 95%)"
         },
         "90": {
-          "value": "hsl(270, 100%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(270, 100%, 98%)"
         },
         "100": {
-          "value": "hsl(280, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(280, 100%, 99%)"
         }
       },
       "suratipink": {
         "0": {
-          "value": "hsl(300, 53%, 12%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 53%, 12%)"
         },
         "10": {
-          "value": "hsl(300, 53%, 18%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 53%, 18%)"
         },
         "20": {
-          "value": "hsl(300, 53%, 33%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 53%, 33%)"
         },
         "30": {
-          "value": "hsl(300, 54%, 46%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 54%, 46%)"
         },
         "40": {
-          "value": "hsl(300, 79%, 59%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 79%, 59%)"
         },
         "50": {
-          "value": "hsl(300, 100%, 73%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 73%)"
         },
         "60": {
-          "value": "hsl(300, 100%, 82%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 82%)"
         },
         "70": {
-          "value": "hsl(300, 100%, 89%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 89%)"
         },
         "80": {
-          "value": "hsl(300, 100%, 94%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 94%)"
         },
         "90": {
-          "value": "hsl(300, 100%, 97%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 97%)"
         },
         "100": {
-          "value": "hsl(300, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(300, 100%, 99%)"
         }
       },
       "barbiepink": {
         "0": {
-          "value": "hsl(330, 53%, 13%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 53%, 13%)"
         },
         "10": {
-          "value": "hsl(329, 54%, 19%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(329, 54%, 19%)"
         },
         "20": {
-          "value": "hsl(330, 54%, 35%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 54%, 35%)"
         },
         "30": {
-          "value": "hsl(330, 53%, 50%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 53%, 50%)"
         },
         "40": {
-          "value": "hsl(330, 93%, 63%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 93%, 63%)"
         },
         "50": {
-          "value": "hsl(330, 100%, 75%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 100%, 75%)"
         },
         "60": {
-          "value": "hsl(330, 100%, 84%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 100%, 84%)"
         },
         "70": {
-          "value": "hsl(330, 100%, 90%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(330, 100%, 90%)"
         },
         "80": {
-          "value": "hsl(329, 100%, 94%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(329, 100%, 94%)"
         },
         "90": {
-          "value": "hsl(328, 100%, 97%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(328, 100%, 97%)"
         },
         "100": {
-          "value": "hsl(340, 100%, 99%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(340, 100%, 99%)"
         }
       },
       "neutral": {
         "0": {
-          "value": "#525d66",
-          "type": "color"
+          "$type": "color",
+          "$value": "#525d66"
         },
         "10": {
-          "value": "#2E2C2C",
-          "type": "color"
+          "$type": "color",
+          "$value": "#2E2C2C"
         },
         "20": {
-          "value": "#655D55",
-          "type": "color"
+          "$type": "color",
+          "$value": "#655D55"
         },
         "30": {
-          "value": "hsl(0, 0%, 36%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 36%)"
         },
         "40": {
-          "value": "hsl(0, 0%, 52%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 52%)"
         },
         "50": {
-          "value": "hsl(0, 0%, 66%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 66%)"
         },
         "60": {
-          "value": "hsl(0, 0%, 78%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 78%)"
         },
         "70": {
-          "value": "hsl(0, 0%, 87%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 87%)"
         },
         "80": {
-          "value": "#F5F5F5",
-          "type": "color"
+          "$type": "color",
+          "$value": "#F5F5F5"
         },
         "90": {
-          "value": "hsl(0, 0%, 98%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 98%)"
         },
         "100": {
-          "value": "hsl(0, 0%, 100%)",
-          "type": "color"
+          "$type": "color",
+          "$value": "hsl(0, 0%, 100%)"
         }
       }
     },
     "border-radius": {
       "0": {
-        "value": "0",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "0"
       },
       "6": {
-        "value": "{core.border-radius.base} * 6.25",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 6.25"
       },
       "12": {
-        "value": "{core.border-radius.base} * 12.5",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 12.5"
       },
       "25": {
-        "value": "{core.border-radius.base} * 25",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 25"
       },
       "37": {
-        "value": "{core.border-radius.base} * 37.5",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 37.5"
       },
       "50": {
-        "value": "{core.border-radius.base} * 50",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 50"
       },
       "75": {
-        "value": "{core.border-radius.base} * 75",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 75"
       },
       "100": {
-        "value": "{core.border-radius.base} * 100",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 100"
       },
       "125": {
-        "value": "{core.border-radius.base} * 125",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 125"
       },
       "150": {
-        "value": "{core.border-radius.base} * 150",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 150"
       },
       "200": {
-        "value": "{core.border-radius.base} * 200",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 200"
       },
       "300": {
-        "value": "{core.border-radius.base} * 300",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.border-radius.base} * 300"
       },
       "pill": {
-        "value": "1000",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "1000"
       },
       "base": {
-        "value": "{core.size.SCALE} / 100",
-        "type": "borderRadius"
+        "$type": "borderRadius",
+        "$value": "{core.size.SCALE} / 100"
       }
     },
     "font-size": {
       "REM": {
-        "value": "16",
-        "type": "fontSizes",
-        "description": "REM is the base-size of all font-sizes. The default is 16(px), so it relates to 1rem = 16(px). If you change it, it will change all font-related tokens."
+        "$type": "fontSizes",
+        "$value": "16",
+        "$description": "REM is the base-size of all font-sizes. The default is 16(px), so it relates to 1rem = 16(px). If you change it, it will change all font-related tokens."
       },
       "scaled": {
         "50": {
-          "value": "{core.font-size.scaled.base} * 50",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 50"
         },
         "62": {
-          "value": "{core.font-size.scaled.base} * 62.5",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 62.5"
         },
         "75": {
-          "value": "{core.font-size.scaled.base} * 75",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 75"
         },
         "87": {
-          "value": "{core.font-size.scaled.base} * 87.5",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 87.5"
         },
         "100": {
-          "value": "{core.font-size.scaled.base} * 100",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 100"
         },
         "125": {
-          "value": "{core.font-size.scaled.base} * 125",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 125"
         },
         "150": {
-          "value": "{core.font-size.scaled.base} * 150",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 150"
         },
         "175": {
-          "value": "{core.font-size.scaled.base} * 175",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 175"
         },
         "200": {
-          "value": "{core.font-size.scaled.base} * 200",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 200"
         },
         "225": {
-          "value": "{core.font-size.scaled.base} * 225",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 225"
         },
         "250": {
-          "value": "{core.font-size.scaled.base} * 250",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 250"
         },
         "275": {
-          "value": "{core.font-size.scaled.base} * 275",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 275"
         },
         "300": {
-          "value": "{core.font-size.scaled.base} * 300",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 300"
         },
         "325": {
-          "value": "{core.font-size.scaled.base} * 325",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 325"
         },
         "350": {
-          "value": "{core.font-size.scaled.base} * 350",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 350"
         },
         "375": {
-          "value": "{core.font-size.scaled.base} * 375",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 375"
         },
         "400": {
-          "value": "{core.font-size.scaled.base} * 400",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 400"
         },
         "450": {
-          "value": "{core.font-size.scaled.base} * 450",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 450"
         },
         "500": {
-          "value": "{core.font-size.scaled.base} * 500",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 500"
         },
         "550": {
-          "value": "{core.font-size.scaled.base} * 550",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 550"
         },
         "600": {
-          "value": "{core.font-size.scaled.base} * 600",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.scaled.base} * 600"
         },
         "base": {
-          "value": "{core.font-size.REM} / 100",
-          "type": "fontSizes",
-          "description": "Depending on what unit you want to add to your font-sizes, you have to change your calculation here:\nIf you are adding px (or nothing which defaults to px) in your font-size tokens, use this calculation here: {core.font-size.REM} / 100\nIf you are adding rem, use: 1/100"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.REM} / 100",
+          "$description": "Depending on what unit you want to add to your font-sizes, you have to change your calculation here:\nIf you are adding px (or nothing which defaults to px) in your font-size tokens, use this calculation here: {core.font-size.REM} / 100\nIf you are adding rem, use: 1/100"
         }
       },
       "enumerated": {
         "0": {
-          "value": "{core.font-size.enumerated.base} * 50",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 50"
         },
         "1": {
-          "value": "{core.font-size.enumerated.base} * 62.5",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 62.5"
         },
         "2": {
-          "value": "{core.font-size.enumerated.base} * 75",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 75"
         },
         "3": {
-          "value": "{core.font-size.enumerated.base} * 87.5",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 87.5"
         },
         "4": {
-          "value": "{core.font-size.enumerated.base} * 100",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 100"
         },
         "5": {
-          "value": "{core.font-size.enumerated.base} * 125",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 125"
         },
         "6": {
-          "value": "{core.font-size.enumerated.base} * 150",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 150"
         },
         "7": {
-          "value": "{core.font-size.enumerated.base} * 175",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 175"
         },
         "8": {
-          "value": "{core.font-size.enumerated.base} * 200",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 200"
         },
         "9": {
-          "value": "{core.font-size.enumerated.base} * 225",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 225"
         },
         "10": {
-          "value": "{core.font-size.enumerated.base} * 250",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 250"
         },
         "11": {
-          "value": "{core.font-size.enumerated.base} * 275",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 275"
         },
         "12": {
-          "value": "{core.font-size.enumerated.base} * 300",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 300"
         },
         "13": {
-          "value": "{core.font-size.enumerated.base} * 325",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 325"
         },
         "14": {
-          "value": "{core.font-size.enumerated.base} * 350",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 350"
         },
         "15": {
-          "value": "{core.font-size.enumerated.base} * 375",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 375"
         },
         "16": {
-          "value": "{core.font-size.enumerated.base} * 400",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 400"
         },
         "17": {
-          "value": "{core.font-size.enumerated.base} * 450",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 450"
         },
         "18": {
-          "value": "{core.font-size.enumerated.base} * 500",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 500"
         },
         "19": {
-          "value": "{core.font-size.enumerated.base} * 550",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 550"
         },
         "20": {
-          "value": "{core.font-size.enumerated.base} * 600",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.enumerated.base} * 600"
         },
         "base": {
-          "value": "{core.font-size.REM} / 100",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.REM} / 100"
         }
       },
       "typescale": {
         "scale": {
-          "value": "1.25",
-          "type": "fontSizes",
-          "description": "Since ever, type scales are used to define a set of useful text sizes. The problem is: You won't end up with whole numbers, instead with crooked decimal numbers. Some of us designers like to stick to those type scales, others like to build their own with nice whole numbers ...\n\nPopuplar ratios are: 1.067 Minor Second, 1.125 Major Second, 1.200 Minor Third, 1.250 Major Third, 1.333 Perfect Fourth, 1.414 Augmented Fourth, 1.500 Perfect Fifth, 1.618 Golden Ratio"
+          "$type": "fontSizes",
+          "$value": "1.25",
+          "$description": "Since ever, type scales are used to define a set of useful text sizes. The problem is: You won't end up with whole numbers, instead with crooked decimal numbers. Some of us designers like to stick to those type scales, others like to build their own with nice whole numbers ...\n\nPopuplar ratios are: 1.067 Minor Second, 1.125 Major Second, 1.200 Minor Third, 1.250 Major Third, 1.333 Perfect Fourth, 1.414 Augmented Fourth, 1.500 Perfect Fifth, 1.618 Golden Ratio"
         },
         "xxs": {
-          "value": "{core.font-size.typescale.xs} / {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.xs} / {core.font-size.typescale.scale}"
         },
         "xs": {
-          "value": "{core.font-size.typescale.s} / {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.s} / {core.font-size.typescale.scale}"
         },
         "s": {
-          "value": "{core.font-size.typescale.base} / {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.base} / {core.font-size.typescale.scale}"
         },
         "m": {
-          "value": "{core.font-size.typescale.base}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.base}"
         },
         "ml": {
-          "value": "{core.font-size.typescale.m} * {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.m} * {core.font-size.typescale.scale}"
         },
         "l": {
-          "value": "{core.font-size.typescale.ml} * {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.ml} * {core.font-size.typescale.scale}"
         },
         "xl": {
-          "value": "{core.font-size.typescale.l} * {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.l} * {core.font-size.typescale.scale}"
         },
         "xxl": {
-          "value": "{core.font-size.typescale.xl} * {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.xl} * {core.font-size.typescale.scale}"
         },
         "xxxl": {
-          "value": "{core.font-size.typescale.xxl} * {core.font-size.typescale.scale}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.typescale.xxl} * {core.font-size.typescale.scale}"
         },
         "base": {
-          "value": "{core.font-size.REM}",
-          "type": "fontSizes"
+          "$type": "fontSizes",
+          "$value": "{core.font-size.REM}"
         }
       }
     },
     "border-width": {
       "0": {
-        "value": "0",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "0"
       },
       "5": {
-        "value": "0.5",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "0.5"
       },
       "10": {
-        "value": "1",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "1"
       },
       "15": {
-        "value": "1.5",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "1.5"
       },
       "20": {
-        "value": "2",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "2"
       },
       "25": {
-        "value": "2.5",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "2.5"
       },
       "30": {
-        "value": "3",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "3"
       },
       "35": {
-        "value": "3.5",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "3.5"
       },
       "40": {
-        "value": "4",
-        "type": "borderWidth"
+        "$type": "borderWidth",
+        "$value": "4"
       }
     },
     "line-height": {
       "xs": {
-        "value": "100%",
-        "type": "lineHeights",
-        "description": "This is probably your headlines line-height."
+        "$type": "lineHeights",
+        "$value": "100%",
+        "$description": "This is probably your headlines line-height."
       },
       "s": {
-        "value": "110%",
-        "type": "lineHeights",
-        "description": "This is probably your interface line-height or also gladly used for headlines."
+        "$type": "lineHeights",
+        "$value": "110%",
+        "$description": "This is probably your interface line-height or also gladly used for headlines."
       },
       "m": {
-        "value": "130%",
-        "type": "lineHeights",
-        "description": "This is probably your non-article line-height."
+        "$type": "lineHeights",
+        "$value": "130%",
+        "$description": "This is probably your non-article line-height."
       },
       "l": {
-        "value": "150%",
-        "type": "lineHeights",
-        "description": "This is probably your article line-height."
+        "$type": "lineHeights",
+        "$value": "150%",
+        "$description": "This is probably your article line-height."
       }
     },
     "paragraph-spacing": {
       "none": {
-        "value": "0.0",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "0.0"
       },
       "s": {
-        "value": "0.25",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "0.25"
       },
       "m": {
-        "value": "0.5",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "0.5"
       },
       "l": {
-        "value": "0.75",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "0.75"
       },
       "xl": {
-        "value": "1",
-        "type": "paragraphSpacing"
+        "$type": "paragraphSpacing",
+        "$value": "1"
       }
     },
     "dimension": {
       "0": {
-        "value": "0",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "0"
       },
       "6": {
-        "value": "{core.dimension.base} * 6.25",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 6.25"
       },
       "12": {
-        "value": "{core.dimension.base} * 12.5",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 12.5"
       },
       "25": {
-        "value": "{core.dimension.base} * 25",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 25"
       },
       "37": {
-        "value": "{core.dimension.base} * 37.5",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 37.5"
       },
       "50": {
-        "value": "{core.dimension.base} * 50",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 50"
       },
       "75": {
-        "value": "{core.dimension.base} * 75",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 75"
       },
       "100": {
-        "value": "{core.dimension.base} * 100",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 100"
       },
       "125": {
-        "value": "{core.dimension.base} * 125",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 125"
       },
       "150": {
-        "value": "{core.dimension.base} * 150",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 150"
       },
       "175": {
-        "value": "{core.dimension.base} * 175",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 175"
       },
       "200": {
-        "value": "{core.dimension.base} * 200",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 200"
       },
       "225": {
-        "value": "{core.dimension.base} * 225",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 225"
       },
       "250": {
-        "value": "{core.dimension.base} * 250",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 250"
       },
       "300": {
-        "value": "{core.dimension.base} * 300",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 300"
       },
       "350": {
-        "value": "{core.dimension.base} * 350",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 350"
       },
       "400": {
-        "value": "{core.dimension.base} * 400",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 400"
       },
       "450": {
-        "value": "{core.dimension.base} * 450",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 450"
       },
       "500": {
-        "value": "{core.dimension.base} * 500",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 500"
       },
       "600": {
-        "value": "{core.dimension.base} * 600",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 600"
       },
       "700": {
-        "value": "{core.dimension.base} * 700",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 700"
       },
       "800": {
-        "value": "{core.dimension.base} * 800",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 800"
       },
       "900": {
-        "value": "{core.dimension.base} * 900",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 900"
       },
       "1000": {
-        "value": "{core.dimension.base} * 1000",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1000"
       },
       "1100": {
-        "value": "{core.dimension.base} * 1100",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1100"
       },
       "1200": {
-        "value": "{core.dimension.base} * 1200",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1200"
       },
       "1300": {
-        "value": "{core.dimension.base} * 1300",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1300"
       },
       "1400": {
-        "value": "{core.dimension.base} * 1400",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1400"
       },
       "1500": {
-        "value": "{core.dimension.base} * 1500",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1500"
       },
       "1600": {
-        "value": "{core.dimension.base} * 1600",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 1600"
       },
       "2000": {
-        "value": "{core.dimension.base} * 2000",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 2000"
       },
       "2400": {
-        "value": "{core.dimension.base} * 2400",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.dimension.base} * 2400"
       },
       "base": {
-        "value": "{core.size.SCALE} / 100",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{core.size.SCALE} / 100"
       }
     },
     "size": {
       "SCALE": {
-        "value": "16",
-        "type": "sizing",
-        "description": "Hi there! SCALE is the base-scale of all size-related tokens (size, space, dimension). The default is 16(px), so it relates to 1rem = 16(px) for font-sizes. If you change it, it will change all size-related tokens. :)"
+        "$type": "sizing",
+        "$value": "16",
+        "$description": "Hi there! SCALE is the base-scale of all size-related tokens (size, space, dimension). The default is 16(px), so it relates to 1rem = 16(px) for font-sizes. If you change it, it will change all size-related tokens. :)"
       }
     },
     "box-shadow": {
       "blurry": {
         "0": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "0",
             "blur": "0",
@@ -1132,126 +1133,125 @@
             "color": "rgb(0,0,0,0)",
             "type": "dropShadow"
           },
-          "type": "boxShadow",
-          "description": "Box shadow tokens don't yet support referencing each other, that's why they are a little rigid still. The feature will come soon, though."
+          "$description": "Box shadow tokens don't yet support referencing each other, that's why they are a little rigid still. The feature will come soon, though."
         },
         "1": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "1",
             "blur": "2",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "2": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "2",
             "blur": "4",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "3": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "2",
             "blur": "8",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "4": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "4",
             "blur": "16",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "5": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "4",
             "blur": "32",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "6": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "4",
             "blur": "64",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         }
       },
       "edgy": {
         "0": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "0",
             "blur": "0",
             "spread": "0",
             "color": "rgb(0,0,0,0)",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "1": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "2",
             "blur": "0",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "2": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "4",
             "blur": "0",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         },
         "3": {
-          "value": {
+          "$type": "boxShadow",
+          "$value": {
             "x": "0",
             "y": "8",
             "blur": "0",
             "spread": "0",
             "color": "rgba(#000000, {core.box-shadow.intensity})",
             "type": "dropShadow"
-          },
-          "type": "boxShadow"
+          }
         }
       },
       "intensity": {
-        "value": "0.1",
-        "type": "other",
-        "description": "Drop shadows are more visible on light backgrounds than dark ones. In order to be able to intensify the drop shadows on dark theme, you can use a variable/token like this and bump it up in your dark theme."
+        "$type": "other",
+        "$value": "0.1",
+        "$description": "Drop shadows are more visible on light backgrounds than dark ones. In order to be able to intensify the drop shadows on dark theme, you can use a variable/token like this and bump it up in your dark theme."
       }
     }
   }

@@ -3,8 +3,8 @@
     "card": {
       "space": {
         "default": {
-          "value": "{core.dimension.150}",
-          "type": "spacing"
+          "$type": "spacing",
+          "$value": "{core.dimension.150}"
         }
       }
     }

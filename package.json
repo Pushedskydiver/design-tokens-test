@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.10.3",
-    "@tokens-studio/sd-transforms": "^1.2.0",
+    "@tokens-studio/sd-transforms": "^1.2.3",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^6.7.4",

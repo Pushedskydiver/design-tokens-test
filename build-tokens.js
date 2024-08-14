@@ -16,30 +16,15 @@ async function buildTokens() {
 
 		return {
 			log: { verbosity: 'verbose' },
-			source: source,
+			source,
 			preprocessors: ['tokens-studio'],
 			expand: {
 				typesMap: expandTypesMap,
 			},
 			platforms: {
 				css: {
-					// transformGroup: 'tokens-studio',
-					transforms: [
-						'attribute/cti',
-						'name/kebab',
-						'border/css/shorthand',
-						'fontFamily/css',
-						'size/px',
-						'typography/css/shorthand',
-						'ts/color/css/hexrgba',
-						'ts/color/modifiers',
-						'ts/descriptionToComment',
-						'ts/opacity',
-						'ts/resolveMath',
-						'ts/size/css/letterspacing',
-						'ts/shadow/innerShadow',
-						'ts/typography/fontWeight',
-					],
+					transformGroup: 'tokens-studio',
+					transforms: ['name/kebab', 'size/pxToRem'],
 					buildPath: 'app/styles/themes/',
 					files: [
 						{

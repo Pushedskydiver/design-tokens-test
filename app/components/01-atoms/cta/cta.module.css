@@ -3,9 +3,9 @@
 	background-color: var(--cta-bg-color);
 	color: var(--cta-fg-color);
 	border: 2px solid var(--cta-fg-color);
-	border-radius: var(--base-border-radius-selectable-m);
-	padding-block: var(--base-space-container-inset-s);
-	padding-inline: var(--base-space-container-inset-m);
+	border-radius: var(--border-radius-selectable-m);
+	padding-block: var(--spacing-container-inset-s);
+	padding-inline: var(--spacing-container-inset-m);
 	font-family: var(--cta-font-family);
 	font-size: var(--cta-font-size);
 	line-height: var(--cta-line-height);
@@ -16,22 +16,22 @@
 }
 
 .primary {
-	--cta-bg-color: var(--base-color-buttons-primary-background);
-	--cta-fg-color: var(--base-color-buttons-primary-foreground);
-	--cta-font-family: var(--base-typography-interface-strong-sm-font-family);
-	--cta-font-size: var(--base-typography-interface-strong-sm-font-size);
-	--cta-line-height: var(--base-typography-interface-strong-sm-line-height);
+	--cta-bg-color: var(--color-buttons-primary-background);
+	--cta-fg-color: var(--color-buttons-primary-foreground);
+	--cta-font-family: var(--typography-interface-strong-sm-font-family);
+	--cta-font-size: var(--typography-interface-strong-sm-font-size);
+	--cta-line-height: var(--typography-interface-strong-sm-line-height);
 }
 
 .secondary {
-	--cta-bg-color: var(--base-color-buttons-secondary-background);
-	--cta-fg-color: var(--base-color-buttons-secondary-foreground);
-	--cta-font-family: var(--base-typography-interface-strong-s-font-family);
-	--cta-font-size: var(--base-typography-interface-strong-s-font-size);
-	--cta-line-height: var(--base-typography-interface-strong-s-line-height);
+	--cta-bg-color: var(--color-buttons-secondary-background);
+	--cta-fg-color: var(--color-buttons-secondary-foreground);
+	--cta-font-family: var(--typography-interface-strong-s-font-family);
+	--cta-font-size: var(--typography-interface-strong-s-font-size);
+	--cta-line-height: var(--typography-interface-strong-s-line-height);
 }
 
 .content {
-	font-weight: var(--base-typography-interface-strong-sm-font-weight);
+	font-weight: var(--typography-interface-strong-sm-font-weight);
 	text-transform: uppercase;
 }

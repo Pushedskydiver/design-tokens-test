@@ -10,13 +10,13 @@
 }
 
 .containerbleed {
-	--padding: calc(var(--base-spacing) * 2);
+	--padding: calc(var(--spacing) * 2);
 	--space: calc(var(--padding) * 2);
 	--grid-container: calc((100vw - var(--container)) + var(--space));
-	--max-value: calc((var(--grid-container) / 2) - var(--base-spacing));
+	--max-value: calc((var(--grid-container) / 2) - var(--spacing));
 	--preferred-margin-value: calc(var(--max-value) - var(--padding));
 
-	margin-inline: var(--base-spacing);
+	margin-inline: var(--spacing);
 	padding-inline: clamp(
 		var(--padding),
 		var(--preferred-margin-value),

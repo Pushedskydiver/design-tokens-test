@@ -1,14 +1,14 @@
 .card {
 	max-inline-size: 35rem;
 	margin-inline: auto;
-	background-color: var(--base-color-bg-cloudy);
+	background-color: var(--color-bg-cloudy);
 }
 
 .picture {
 	position: relative;
 	display: block;
 	aspect-ratio: 3/2;
-	background-color: var(--base-color-fg-weak);
+	background-color: var(--color-fg-weak);
 }
 
 .image {
@@ -22,28 +22,28 @@
 
 .content {
 	display: grid;
-	gap: var(--base-space-container-inside-m);
-	padding-block: var(--base-card-space-default);
+	gap: var(--spacing-container-inside-m);
+	padding-block: var(--spacing-card-base);
 }
 
 .contentWithPadding {
-	padding-inline: var(--base-card-space-default);
+	padding-inline: var(--spacing-card-base);
 }
 
 .title {
-	color: var(--base-color-fg-default);
-	font-family: var(--base-typography-title-l-font-family);
-	font-size: var(--base-typography-title-l-font-size);
-	font-weight: var(--base-typography-title-l-font-weight);
-	line-height: var(--base-typography-title-l-line-height);
+	color: var(--color-fg-default);
+	font-family: var(--typography-title-l-font-family);
+	font-size: var(--typography-title-l-font-size);
+	font-weight: var(--typography-title-l-font-weight);
+	line-height: var(--typography-title-l-line-height);
 }
 
 .bodyText {
-	color: var(--base-color-fg-weak);
-	font-family: var(--base-typography-body-m-font-family);
-	font-size: var(--base-typography-body-m-font-size);
-	font-weight: var(--base-typography-body-m-font-weight);
-	line-height: var(--base-typography-body-m-line-height);
+	color: var(--color-fg-weak);
+	font-family: var(--typography-body-m-font-family);
+	font-size: var(--typography-body-m-font-size);
+	font-weight: var(--typography-body-m-font-weight);
+	line-height: var(--typography-body-m-line-height);
 }
 
 .cta {

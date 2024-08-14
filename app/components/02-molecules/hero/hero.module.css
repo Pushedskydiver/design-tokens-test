@@ -12,7 +12,7 @@
 	position: relative;
 	display: block;
 	aspect-ratio: 1/1;
-	background-color: var(--base-color-fg-weak);
+	background-color: var(--color-fg-weak);
 
 	@media (width >= --bp-medium) {
 		aspect-ratio: 4/3;
@@ -28,8 +28,8 @@
 }
 
 .content {
-	padding: var(--base-space-container-stack-m);
-	background-color: var(--base-color-bg-cloudy);
+	padding: var(--spacing-container-stack-m);
+	background-color: var(--color-bg-cloudy);
 
 	@media (width >= --bp-medium) {
 		display: flex;
@@ -40,31 +40,31 @@
 }
 
 .title {
-	color: var(--base-color-fg-default);
-	font-family: var(--base-typography-title-xxxl-font-family);
-	font-size: var(--base-typography-title-xxxl-font-size);
-	font-weight: var(--base-typography-title-xxxl-font-weight);
-	line-height: var(--base-typography-title-xxxl-line-height);
+	color: var(--color-fg-default);
+	font-family: var(--typography-title-xxxl-font-family);
+	font-size: var(--typography-title-xxxl-font-size);
+	font-weight: var(--typography-title-xxxl-font-weight);
+	line-height: var(--typography-title-xxxl-line-height);
 	text-align: center;
 }
 
 .bodyText {
 	max-inline-size: 55rem;
-	margin-block-start: var(--base-space-container-stack-s);
-	color: var(--base-color-fg-weak);
-	font-family: var(--base-typography-body-m-font-family);
-	font-size: var(--base-typography-body-m-font-size);
-	font-weight: var(--base-typography-body-m-font-weight);
-	line-height: var(--base-typography-body-m-line-height);
+	margin-block-start: var(--spacing-container-stack-s);
+	color: var(--color-fg-weak);
+	font-family: var(--typography-body-m-font-family);
+	font-size: var(--typography-body-m-font-size);
+	font-weight: var(--typography-body-m-font-weight);
+	line-height: var(--typography-body-m-line-height);
 	text-align: center;
 }
 
 .list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--base-space-container-stack-s);
+	gap: var(--spacing-container-stack-s);
 	justify-content: center;
-	margin-block: var(--base-space-container-stack-m) 0;
+	margin-block: var(--spacing-container-stack-m) 0;
 	padding-inline: 0;
 	list-style-type: none;
 }

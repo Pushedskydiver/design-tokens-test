@@ -1,11 +1,11 @@
 :root {
 	/* Typography */
-	--font-family-primary: var(--base-font-family-title, sans-serif);
-	--font-family-secondary: var(--base-font-family-body, sans-serif);
+	--font-family-primary: var(--font-family-title, sans-serif);
+	--font-family-secondary: var(--font-family-body, sans-serif);
 
 	/* Container */
 	--container-max-width: 144rem;
-	--container-inline-padding: var(--base-space-page-inside-s);
+	--container-inline-padding: var(--spacing-page-inside-s);
 }
 
 *,
@@ -25,7 +25,7 @@ html {
 body {
 	margin: 0;
 	background-color: var(--background-color);
-	color: var(--base-color-fg-weak);
+	color: var(--color-fg-weak);
 	font-family: var(--font-family-secondary);
 	font-size: 1.6rem;
 	line-height: 160%;

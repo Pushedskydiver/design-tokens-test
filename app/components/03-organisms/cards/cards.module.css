@@ -8,14 +8,14 @@
 	composes: container from containers;
 	display: flex;
 	flex-wrap: wrap;
-	gap: var(--base-space-page-inside-m);
+	gap: var(--spacing-page-inside-m);
 	justify-content: center;
 	margin-block: 0;
-	padding-block: var(--base-space-page-inside-m);
+	padding-block: var(--spacing-page-inside-m);
 	padding-inline: 0;
 	list-style-type: none;
 
 	@media (width >= --bp-medium) {
-		padding-block: var(--base-space-page-inside-l);
+		padding-block: var(--spacing-page-inside-l);
 	}
 }

@@ -1,6 +1,6 @@
 .link {
 	display: inline;
-	color: var(--base-color-fg-default);
-	border-block-end: 2px solid var(--base-color-fg-default);
+	color: var(--color-fg-default);
+	border-block-end: 2px solid var(--color-fg-default);
 	text-decoration: none;
 }

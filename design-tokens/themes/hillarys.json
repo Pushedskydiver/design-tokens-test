@@ -833,7 +833,7 @@
         "blur": "0",
         "spread": "{core.dimension.25}",
         "color": "{color.buttons.primary.background}",
-        "type": "dropShadow"
+        "type": "innerShadow"
       }
     },
     "container": {

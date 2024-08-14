@@ -374,7 +374,7 @@
           "$value": "hsl(210, 100%, 99%)"
         }
       },
-      "romanticblue": {
+      "omanticblue": {
         "0": {
           "$type": "color",
           "$value": "hsl(240, 53%, 17%)"
@@ -660,7 +660,7 @@
       },
       "base": {
         "$type": "borderRadius",
-        "$value": "{core.size.SCALE} / 100"
+        "$value": "{core.sizing.SCALE} / 100"
       }
     },
     "font-size": {
@@ -1111,10 +1111,10 @@
       },
       "base": {
         "$type": "dimension",
-        "$value": "{core.size.SCALE} / 100"
+        "$value": "{core.sizing.SCALE} / 100"
       }
     },
-    "size": {
+    "sizing": {
       "SCALE": {
         "$type": "sizing",
         "$value": "16",
@@ -1142,7 +1142,7 @@
             "y": "1",
             "blur": "2",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1153,7 +1153,7 @@
             "y": "2",
             "blur": "4",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1164,7 +1164,7 @@
             "y": "2",
             "blur": "8",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1175,7 +1175,7 @@
             "y": "4",
             "blur": "16",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1186,7 +1186,7 @@
             "y": "4",
             "blur": "32",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1197,7 +1197,7 @@
             "y": "4",
             "blur": "64",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         }
@@ -1221,7 +1221,7 @@
             "y": "2",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1232,7 +1232,7 @@
             "y": "4",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         },
@@ -1243,15 +1243,19 @@
             "y": "8",
             "blur": "0",
             "spread": "0",
-            "color": "rgba(#000000, {core.box-shadow.intensity})",
+            "color": "rgba(#000000, {core.other.box-shadow.intensity})",
             "type": "dropShadow"
           }
         }
-      },
-      "intensity": {
-        "$type": "other",
-        "$value": "0.1",
-        "$description": "Drop shadows are more visible on light backgrounds than dark ones. In order to be able to intensify the drop shadows on dark theme, you can use a variable/token like this and bump it up in your dark theme."
+      }
+    },
+    "other": {
+      "box-shadow": {
+        "intensity": {
+          "$type": "other",
+          "$value": "0.1",
+          "$description": "Drop shadows are more visible on light backgrounds than dark ones. In order to be able to intensify the drop shadows on dark theme, you can use a variable/token like this and bump it up in your dark theme."
+        }
       }
     }
   }

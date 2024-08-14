@@ -1,11 +1,9 @@
 {
-  "base": {
+  "spacing": {
     "card": {
-      "space": {
-        "default": {
-          "$type": "spacing",
-          "$value": "{core.dimension.150}"
-        }
+      "base": {
+        "$type": "spacing",
+        "$value": "{core.dimension.150}"
       }
     }
   }

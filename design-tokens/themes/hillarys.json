@@ -868,13 +868,5 @@
         }
       }
     }
-  },
-  "core": {
-    "box-shadow": {
-      "intensity": {
-        "$type": "other",
-        "$value": "0.1"
-      }
-    }
   }
 }

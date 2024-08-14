@@ -813,13 +813,5 @@
         "$description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup."
       }
     }
-  },
-  "core": {
-    "box-shadow": {
-      "intensity": {
-        "$type": "other",
-        "$value": "0.4"
-      }
-    }
   }
 }

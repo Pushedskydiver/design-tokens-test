@@ -81,7 +81,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "darken",
-                "value": "{core.border-radius.other.color.modifiers.lightness-delta} * 4",
+                "value": "{other.color.modifiers.lightness-delta} * 4",
                 "space": "lch"
               }
             }
@@ -99,7 +99,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "{core.border-radius.other.color.modifiers.lightness-delta} * 4",
+                "value": "{other.color.modifiers.lightness-delta} * 4",
                 "space": "lch"
               }
             }
@@ -114,7 +114,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "darken",
-                "value": "{core.border-radius.other.color.modifiers.lightness-delta} * 4",
+                "value": "{other.color.modifiers.lightness-delta} * 4",
                 "space": "lch"
               }
             }
@@ -131,7 +131,7 @@
             "studio.tokens": {
               "modify": {
                 "type": "lighten",
-                "value": "{core.border-radius.other.color.modifiers.lightness-delta} * 4",
+                "value": "{other.color.modifiers.lightness-delta} * 4",
                 "space": "lch"
               }
             }

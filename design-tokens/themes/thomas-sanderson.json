@@ -817,5 +817,18 @@
       "$value": "{core.font-size.scaled.300}",
       "$description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup."
     }
+  },
+  "box-shadow": {
+    "focus-border": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "{core.dimension.25}",
+        "color": "{core.color.neutral.10}",
+        "type": "innerShadow"
+      }
+    }
   }
 }

@@ -832,32 +832,8 @@
         "y": "0",
         "blur": "0",
         "spread": "{core.dimension.25}",
-        "color": "{color.buttons.primary.background}",
+        "color": "{core.color.neutral.10}",
         "type": "innerShadow"
-      }
-    },
-    "container": {
-      "l": {
-        "$type": "boxShadow",
-        "$value": "{core.box-shadow.blurry.3}"
-      },
-      "xl": {
-        "$type": "boxShadow",
-        "$value": "{core.box-shadow.blurry.4}"
-      },
-      "xxl": {
-        "$type": "boxShadow",
-        "$value": "{core.box-shadow.blurry.5}"
-      }
-    },
-    "selectable": {
-      "s": {
-        "$type": "boxShadow",
-        "$value": "{core.box-shadow.blurry.2}"
-      },
-      "m": {
-        "$type": "boxShadow",
-        "$value": "{core.box-shadow.blurry.3}"
       }
     }
   },
